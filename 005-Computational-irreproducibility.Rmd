@@ -1,0 +1,74 @@
+# Computational Pitfalls
+
+## Computational Transparency (or lack thereof)
+
+Very few papers published today don't contain at least one computer generated graph and a statistical test.
+Computing is ubiquitous in research and growing ever more so.
+The chances are therefore, that somewhere in any given paper you publish there is a number generated from your data by a computer.
+Now there are plenty of sources of error that can be introduced between your data and the number that ends up in your paper.
+These can be simple errors like typos and bugs in software, conceptual errors like using the wrong tool and a variety of other failure modes.
+We can with some of the technologies I outline in the next section eliminate many of the sources of simple error and ensure that any conceptual mistakes are at least properly documented so that we can tell if we for them look carefully.
+My goal for the new publishing medium is that the published artifact should provide a complete description of every function applied to the input data to produce the outputs. 
+That is to say if a number or plot appears in your manuscript then the published artifact should show how that was derived from your data. 
+
+In the most minimal example consider I want to do some arithmetic, why should I ask you to trust me that I did the calculation right when I can write the calculation out and have the computer evaluate it?
+If I want to tell you the value of x is `r round(7957/3)` but the fact that I computed it by doing $x=\frac{7957}{3}$ does not need to be in the manuscript at this point I can put the computation specification in the source document that generates the manuscript.
+In the case for the number above it is a piece of code that looks like this: 
+
+```{}
+` r round(7957/3) `
+```
+
+That way you can check my work and I can't accidentally transpose a number copying the output into my manuscript.
+I can still introduce bad data (garbage in garbage out) and I can still specify and incorrect computation but now you can see what the computation is and if I misspecified it.
+This generalizes from the simple case to complete complex computational pipelines and tools to make this quite achievable in practice now exist as we will see later.
+
+This might seem like quite a bit of trouble to go to, why am I making this rather exacting auditability a priority for the future of scientific publications? We'll see in the next section.
+
+## Computational Irreproducibility
+
+It is hard to reproduce, not to replicate but merely to exactly redo analyses published in many papers.
+Complex bioinformatic analyses can take months to reproduce and often simply cannot be done without contacting their authors for additional information [@garijo2013].
+Much progress on this issue has been made, (by some), since the publication of that study however best practices are under-defined, inconsistently applied, not taught well/widely and not well incentivised.
+This latter point is very important there is little incentive when publishing to ensure computational reproducibility.
+Few reviewers will flag this as an issue.
+Also we are quite accustomed to seeing phrases like "analysis was performed with custom in-house python scripts".
+This should worry us, I'll be expanding a little on why below.
+I've been guilty of this sort of vagueness before I learned some of the tools to make it practical to avoid this.
+These scripts may or may not be made available with the manuscript and if they are it may be impossible to get them to run if details of the computational environment like software versions are not also provided. 
+Without details of the computational environment there is also no guarantee that even if it runs it will produce exactly the same output.
+This can be at multiple levels from package versions you are using to the OS you are running. *find the reference for the bioinf tool that produced different results on macOS and linux*.
+
+This would be bad enough but software has bugs, lots of bugs.
+Highly paid teams of professional programmers with years of experience and automated testing frameworks pump out software used by millions of people that is full of bugs.
+There are plenty of bugs in software written for highly regulated industries with exacting safety standards like the military, aviation, and medical devices.
+Some of these bugs have killed people, others have cost companies millions (*cite humble pi*)
+The key point is that highly motivate professionals find it impossible to eliminate all bugs even when lives depend on it.
+Most code written by academics for the purposes of doing data analyses is not subject to much scrutiny it rarely has to survive a 'production environment' also much of it, no offense, is written by semi-self taught amateurs.
+How buggy is what we write likely to be when we don't have nearly as rigorous a process or nearly as much exposure to real world
+ stresses to reveal errors as professionally written code?
+This applies to us all even if you don't write what is conventionally thought of as code. 
+Ever used and excel function? congratulations you written some code and it might be buggy.
+
+Now there is good reason for us academics to not expend vast efforts on the sort of rigorous software engineering someone like NASA would do, and I'm not saying we should.
+We need to be able to prototype rapidly, to make horrendously non-performant proofs of principle, to hack things together, make things so specialized that they only need to run for our specific problem and it doesn't matter terribly if they are slow or not user friendly.
+
+We do however need to be able to check our work, and that of our colleagues.
+We need an audit trail of what we did and how so that we can track down and understand sources of error.
+The same way that we keep detailed lab notebooks that can help us spot mistakes and improve protocols at the bench, we need analogous processes for our computational work.
+let's return to excel, have you ever sorted by a column in excel and got the dialog box asking if you want to expand your selection to all columns or just re-order the one you selected?
+If you picked the latter option congratulations you just effectively randomized the order of one column with respect to the others.
+It is quite easy to do this and it can be quite hard to tell if you have if you don't notice immediately.
+beyond the ephemeral undo history there is also no record of this operation stored in excel so you can't easily do some forensics to figure out where it all went wrong.
+This is a reason to prefer writing code to working with a GUI without a detailed and persistent history of the operations you have performed in a form that you can share with others and use to repeat your analysis exactly.
+
+When working with software are working with high level abstractions that crystallize an immense body of understanding often opaque to us as individuals behind the click of a button or a function call.
+It is thus essential to the verifiability [@hinsen2018] of our work that we can document how we used these tools so that others with appropriate expertise can assess the technical correctness of the tool and the validity of our use of it for the question at hand.
+
+As we become more specialized and the paths of inference from observations to conclusions become longer and more convoluted than can fit in the scope of our individual knowledge. 
+As a result we must strengthen the approaches we take to insuring correctness of the chain of inferences at the weak points where is passes from one domain of specialized knowledge to another.
+
+This lack of reproducibility need not be the case, we have the technical means to overcome this issue with tools primarily originating in the modern software development and deployment industry.
+In the next section I will be covering how we can make use of some of these technologies to overcome some of the pitfalls outlined here and even to make the process of writing a publishing research a more streamlined, less painful and more rigorous process than the way be do it now.
+
+

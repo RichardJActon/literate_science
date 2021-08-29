@@ -1,0 +1,29 @@
+# Introduction {#intro}
+
+## Literate Science
+
+*A new paradigm for academic publishing*
+
+__This is currently very much a work in progress and may change dramatically and rapidly, some sections may be drafts, outlines and bullet points to be filled in and properly edited as I go__
+
+This is an outline for a new academic publishing paradigm with reforms spanning the types of article we publish, the formats in which we author them and the business models of publishers.
+These proposals aim to address a number of the systemic issues by which academic publishing is currently beset.
+They range from the seemingly minor impracticalities associated with submitting papers through to the extractive business practices of a number of large incumbent publishers, the vicissitudes of peer-review, irreproducible analyses, the form and function of papers and a number of other issues.
+
+These proposals draw on ideas from previous 'unconventional' publication platforms such as [f-1000](https://f1000.com/index.html), [peerj](https://peerj.com), [elife](https://elifesciences.org) (particularly their [libero](https://libero.pub) publishing suite), [JoVE - journal of visualised experiments](https://www.jove.com/), and [microPublication](www.micropublication.org).
+They also draw from [RopenSci's software review process](https://ropensci.org/software-review/) and Journal of open source software [JOSS](https://joss.theoj.org), indeed extensive inspiration is drawn from the free & open source software communities more generally.
+In addition they draw from the ideas of [nano-publications](http://nanopub.org/wordpress/) and single observation publishing from [sciencematters.io](sciencematters.io), as well as community contributions to shared protocols and pipelines from [protocols.io](protocols.io) and [nf-core](https://nf-co.re).
+
+Furthermore a number of tools, ideas and practices from modern software development contribute to the bases of some of the proposals to follow.
+These include: The concept of [literate programming](https://en.wikipedia.org/wiki/Literate_programming) in which code and it's documentation, context and explanation are part of the same corpus of text.
+Version/source control of text with [git](https://en.wikipedia.org/wiki/Git) facilitating distributed collaboration on texts, history and tracking of changes, and attribution of authorship of individual contributions to a text.
+Reproducible computational environments with containerisation technologies such as docker and Continuous integration/deployment pipelines to automate testing, checking and building and deployment/publication of software products.
+
+The economics and game theory of proposed solutions as well as gaining the trust and confidence of the academic community are given central importance here and the technical considerations are a means to this end.
+
+What I describe here aspires to be a unified vision for bringing together a number of different reforms, you may disagree with my analysis and/or proposed solutions for a particular problem or even that something that I point to as a problem is one.
+Whilst I think the separate elements of this fit together into a cohesive whole I would urge the reader to consider the merits of the specific proposals separately as I think some are individually valuable. 
+
+I welcome critique and feedback on all of this content.
+This document is published as a 'git-book' using `bookdown` [@R-bookdown] if you would like to discuss it's content please do so in the [discussion section]() associated with git repository on [github](https://github.com/RichardJActon/literate_science) if you have a specific problem, fact check or correction please [open an issue](https://github.com/RichardJActon/literate_science/issues), if you would like to suggest an edit, and are willing to specify the exact changes you'd like to see made please open a [pull request](https://github.com/RichardJActon/literate_science/pulls).
+

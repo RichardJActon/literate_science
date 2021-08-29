@@ -1,0 +1,108 @@
+---
+editor_options: 
+  markdown: 
+    wrap: sentence
+bibliography: references.bib
+---
+
+# Incentives
+
+*Aligning the incentives of authors, publishers & reviewers to favor good science*
+
+> What do we need from a journal and how can we incentivise that and only that reviewer / author matching prioritisation / curation type setting, proofing plagarism, hosting
+
+In the current publishing ecosystem incentives are often actively bad and when they are not actively bad they are often pretty neutral with respect to the key outcome of good quality scientific research.
+
+[pit of sucess](https://blog.codinghorror.com/falling-into-the-pit-of-success/)
+
+> The Pit of Success: in stark contrast to a summit, a peak, or a journey across a desert to find victory through many trials and surprises, we want our customers to simply fall into winning practices by using our platform and frameworks.
+> To the extent that we make it easy to get into trouble we fail.
+
+[goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) issue with metrics/impact - resolve through alignment
+
+## The Review bounty
+
+*A new funding model for academic publishing*
+
+I propose a new system for funding academic publications which I call review bounties.
+If you want to publish a manuscript you don't pay a publication fee you put up a bounty for it's review.
+If you wish to be a publisher you don't put up a pay-wall and charge an access subscription you take a cut of the review bounty.
+As an author you take what you want to publish to a pre-print and review server you state how much you are willing to pay to have it reviewed and published and you make ranked choice list of venues you would be interested in publishing your manuscript.
+Publications then have the option to take you up on overseeing the review and possible publication of your manuscript.
+They contact reviewers who agree to review the manuscript in exchange for an agreed cut of the review bounty.
+Reviews are open, not anonymous, as are all payment amounts.
+This openness is essential to prevent grift as if a journal permits you to simply pay some friends for an easy review their reputation as a venue for rigorous review must suffer.
+
+There are a number of interesting variations you can make to this basic model.
+consider the 'bug bounty' in which a portion of the review bounty is held in reserve and anyone who finds an error in the work that is of material relevance to the conclusions of the work can claim the bounty.
+This can be decided by the senior author, a majority of the authors or a consensus of the publisher and original reviewers.
+The bug bounty accrues back to the authors, publisher and reviewers over time, rewarding them for making non-obvious errors and incentivizing bug hunters to find errors quickly and thus get larger rewards.
+
+In ["An Incentive Solution to the Peer Review Problem"](https://doi.org/10.1371/journal.pbio.0050107) [@hauser2007] Marc Hauser & Ernst Fehr propose that reviewers who fail to deliver their reviews on time be penalized by having any papers they subsequently seek to have published at the journal for which their review was late be held up twice as long as they made other authors wait.
+This proposal may incentivize timely review but punishing tardy reviewers in this way has serious negative externalities, it delays the publication of potentially important work and will disincentivize anyone who has ever been late with a review from publishing in that journal again.
+This is not likely to be convenient for the journal or the reviewer.
+Overall this does not seem like good game theory outside of a very narrow scope, when designing incentive systems we must keep in mind that the end goal is better science we can't optimize solely for punctual reviewers.
+A solution to this problem in the review bounty system is that a reviewer forfeits the bounty if a review is not provided by the deadline.
+Then another reviewer can claim it, or the original reviewer can reclaim part of it but only if they now provide their review up-front prior to another reviewer claiming the bounty.
+The longer an author is kept waiting beyond the deadline the more of their bounty they recoup with the cost comming partly from the publisher to incentivise speedy organisation of the review.
+
+Anonymity and secrecy in peer review is in my opinion thoroughly over-rated, it can conceal abuses of power like holding up someone else's paper so you or your mate can publish first as much or more than it provides scope for junior people to critique the work of senior people.
+Openness increases the reputational risk to senior people of petty behaviour like denying someone a job or grant application because they canned your paper.
+Make a habit of that sort of thing and people will now notice and hold you to account.
+If you can't both respectfully take and dish out an intellectually rigorous critique what are you doing in this line of work?
+
+### poor incentives for quality publishing
+
+-   formatting
+
+    -   general friction around formatting file types and styling
+    -   catering to pagination and the dead tree
+    -   figure panels
+    -   lack of useful animation/interactivity
+
+-   declining readability
+
+    -   Scientific manuscripts are getting [harder to read](https://doi.org/10.7554/eLife.27725.001) [@Plaven-Sigray2017]
+
+-   Citation Dilution (the bigger a paper the less specific you are being when you reference it) \~ credit dilution / attribution?
+
+-   scope beyond reviewer competence
+
+    -   particularly in biology the are massive papers published whith 10 years ago would have taken 10 years to complete can now be a sinlge complec paper
+
+-   narative seeking / lack of pre-registration/distinction between the predicted and the post hoc
+
+-   commitment to metaresearch to improve research publications
+
+-   A public benefit corporation like model or equivolent corporate structure to help prevent a return to the current rachet
+
+review bounties as a key component of the attracting quality reviewer time away from established publishers
+
+[costly signaling theory](https://en.wikipedia.org/wiki/Costly_signaling_theory_in_evolutionary_psychology) in publishing - jumping through arbitary hoops to signal prestige?
+
+physics archive - decoupling of publishing from archiv, pre-prints don't solve the problem need a new hybrid solution
+
+? croud funded news and views bounties?
+
+such a platform has the potential to create a transparent competative market for publication services especially if aided by regulatory or other institutional interventions that penalise the predatory business practices of current industry players
+
+steven novella - minimum publishable unit vs minimal unit of publication, emphasis publishable several crappy experiments and a story, if experiment have to stand on their own they will need to be of higher quality not obfucated by being strung together in a narrative.
+
+see also sciencematters.io - 'single observation publishing'
+
+see the science breaker (universite de geneve) lay summaries / news and views commision (bounties from anyone?)
+
+The authors of the The tragedy of the reviewer commons (<https://doi.org/10.1111/j.1461-0248.2008.01276.x>) [@hochberg2009] identify as an issue: "attempting to publish the smallest acceptable unit" this appears to conflict with proposals for 'micropublications' or other smaller units of publication but I would argue that the underlying concerns that lead to calling this an issue arise from conceiving as a 'conventional' paper as the minimum viable unit of unit publication.
+
+reducing the size of the unit of publication from a full paper to a single experiment, dataset, protocol description, experimental design, theoretical model etc.
+This makes it easier to do your best work because the scope of the task is smaller, it also make it easier to review effectively
+
+If we conceive of the minimum unit of scientific publication as what has become a conventional paper with several often complex experiments and an overarching narrative then an underdeveloped paper can indeed be burdensome to review.
+We have a compounding problem of increasing technical complexity of papers due to in part rising expectations in the amount of work going into a paper to make it worthy of a 'top tier' journal and increasing volume of articles.
+
+The authors of 'The tragedy of the reviewer commons' [@hochberg2009] pre-review by colleagues - do this on platform and don't waste time circulating a bunch of copies by email and reconciling the resulting comments, have and invited reviewers feature that lets you invite input on your work prior to submitting it for formal review
+
+reviewing a modern paper is a daunting task - uncertainty about the expertise of the other reviewers what is the subset of things in the paper which you are expected to the expert reviewer on are the areas outside your scope adaquately covered by other reviewers?
+- I full expect people often tacitly assume the editors have handled this adequately as it theoretically their responsibility and just review what they feel comfortable reviewing.
+
+medium/form mismatch - way to much for the short format paper

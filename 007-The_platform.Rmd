@@ -1,0 +1,41 @@
+# The platform
+
+
+
+To achieve this I propose the following: - New commercial publications and publication platforms should be incorporated using 'public benefit' or 'social purpose' like corporate structure and not conventional 'C' corporations.
+(I'm working here with my limited knowledge of US corporate structures, not all jurisdictions even, as I understand it, in the US have these types of corporate entities yet). 
+It is my understanding that under US law publicly traded companies are under an fiduciary duty to maximise shareholder profit lest they expose themselves to liability for lost earnings by their shareholders, with private equity carrying the expectation of eventually going public making back the investment. 
+This produces a misalignment between corporate entities and their customers with the company incentivised to attempt to exploit their existing customer base for short term stock price gains instead of entering into a long term positive sum interaction with their customers and serving the intended purpose of the corporation to provide the services of an academic publisher. 
+A 'B corp' on the other hand is given license to prioritize its purpose over maximizing its bottom line.
+- We base new publications on open source software stacks. 
+(by which I actually mean free/libre software to appease (a fellow Richard)[fsf.org] and fellow pedant). 
+I propose the development of open publication platforms by 'B corps' (see above).
+
+The business model I envision for them is similar to that employed by many open source software based businesses such as [RedHat](https://www.redhat.com/en) and [SUSE](https://www.suse.com/).
+Individual journals would pay for support for their own instances, consulting, some bespoke development for their needs that will be committed to the public code base and SaaS style hosting for groups who want and instance without the technical overhead.
+The SaaS service *must* always have feature parity with the community version.
+
+Instances would be part of a federated network with the ability to use accounts on one instance to interact with another instance akin to [matrix](https://matrix.org/), [mastadon](https://joinmastodon.org/) or [peertube](https://joinpeertube.org/) and likely employing [OCRID](https://orcid.org/) for universal academic identification.
+
+It is essential that such a publishing platform be built on a free software license this permits the publisher to pre-commit to a business model in which they cannot treat their customers unethically without risking incurring significant costs.
+With a publishing platform based on such a license a company that develops it must continue to add value or it faces a credible threat that the codebase could be forked by a competitor or a community effort.
+As such as platform would offer it services over a network it should ideally make use of a license which protects against loss of free software protections by offering the software as a service such as the AGPL.
+licensing under the AGPL and taking community contributions without a contributor license agreement (CLA), by which contributor grant the company the copyright to their individual contributions, serves as an extremely effective pre-commitment strategy to keeping the software free as the software cannot then be re-licensed without the consent of all contributors.
+
+> formative peer review <https://publicphilosophyjournal.org/overview> (lessons from plants)
+
+
+
+> federated pre-print pool in addition to AI pulicatoin matching - similarity metric for your text to profile for a journal Publication could submit an offer to review a preprint (offer dicounts for choosing them?)
+
+
+> universial review transfer between possible publications on the platform
+
+An open review process where a submitted manuscript is a pre-print and a formative peer review process may or may not result in it becoming a formally peer review process and which enables collaborations when additional work is needed to to to a publication quality peice of work
+
+federated article submission platform where you submit not to a single journal to multiple ones - I'm still thinking about the incentive structure engineering on this last point possibilities include journals bidding on articles with reduced fees, more reviewer time, authors providing ranked wight of first refusal list and voting systems to help rank interesting candidates. 
+
+
+it remains the case that automated reference management does not play well with collaborative document editing - versioning and track changes hell
+
+Each journal can specify things such as how long each section is allowed to be with hard and soft limits, the same applies to the number of figures and references
