@@ -40,6 +40,7 @@ I don't know about you but a mere mortal such as myself needs some working memor
 I content that this problem is worse when looking at electronic representations of formats meant to be printed, at least in part because it is easier to form a mental map of the relationships between these different parts of the manuscript when it is printed.
 When you have a physical copy the parts have relationships to one another in 3D space that take less effort to construct a mental model of.
 Also it's just easier to arrange the pages so can actually look at the different parts and the same time.
+e-reader like formats also suffer from this issue as they don't have fixed pagination so the relationships between objects are harder to model still as they are not even in fixed relationship to one another in a virtual 2D space.
 
 I hypothesize that breaking up figure panels placing information, such as titles and abbreviations unnecessarily relegated to figure legends in the figure itself and placing figures in line in the text as they occur would increase reading speed and comprehension, especially in electronic media. I term this information-non locality minimization.
 
