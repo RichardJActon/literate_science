@@ -35,7 +35,7 @@ To drive this point home you can be looking at a situation like this:
 Figure 6i was discussed on page 4, printed on page 5 and the legend for which is, for some ungodly reason, printed on page 6!
 Oh and also the title for the figure is not on the figure but in the legend and helpfully features (YATA) yet another terrible acronym that was defined once in the abstract on page 1.
 
-I don't know about you but a mere mortal such as myself needs some working memory spare to think about the underlying concepts that a manuscript is trying to communicate to me, and I do not appreciate having to cache as many a 4 look-up tables in my head just to be able to effectively read a figure, ket alone reason further about it! 
+I don't know about you but a mere mortal such as myself needs some working memory spare to think about the underlying concepts that a manuscript is trying to communicate to me, and I do not appreciate having to cache as many a 4 look-up tables in my head just to be able to effectively read a figure, let alone reason further about it! 
 
 I content that this problem is worse when looking at electronic representations of formats meant to be printed, at least in part because it is easier to form a mental map of the relationships between these different parts of the manuscript when it is printed.
 When you have a physical copy the parts have relationships to one another in 3D space that take less effort to construct a mental model of.
