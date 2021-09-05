@@ -6,15 +6,19 @@ editor_options:
 
 # Key Technologies
 
-git and gitlab for versioning in collaborative plaintext document editing markdown as a simple to use plaintext markup lanugage Rmarkdown/kintr/pandoc with Rstudio as document editor/renderer literate programming gitlab ci-cd / docker for reproducible computational environments and automated checking automatically see if your edit to a manuscript if that change breaks a formatting rule automated QC checking and helping, readability analysis, plagarism, stats checks etc.
+The key technologies to implement all of the ideas proposed here already exist.
+What is needed is a software solution which ties a number of them together in a particular way that fits the use case of writing, reviewing and publishing academic manuscripts.
 
 ## Literate Programming
 
 *The case for writing in plain text *
 
-[Literate Programming](https://en.wikipedia.org/wiki/Literate_programming)
-
 Why would I write in a plain text file when I could use something like word or google docs?
+I used to be a word aficionado I new all the fancy features, and when real-time collaborative editing came along in google docs I was on-board and longing for reference management integrations.
+Now I write almost exclusively in plain text files, I can still do all the same stuff I did in word and google docs but also much more.
+I do this even when I'm not coding I wrote my thesis like this, I'm doing it now.
+I can work in an editor that is a bit more like word or google docs in appearance but because I often write code mixed in with my prose I generally don't.
+I'm using a simple set of rules for formatting my text document called markdown.
 
 Here is ~98% of all the markdown syntax you are likely to need to know:
 
@@ -22,7 +26,7 @@ Here is ~98% of all the markdown syntax you are likely to need to know:
 
     ## Heading 2
 
-    ## Heading 3 {h3}
+    ## Heading 3 {#h3}
 
 	a reference to a section \@ref(h3)
 
@@ -55,13 +59,36 @@ Here is ~98% of all the markdown syntax you are likely to need to know:
     $$
     
 
-If you can learn to use some of the slightly more advanced features of MS 
-Word like styles, sections, track changes or automated reference management you can learn markdown pretty easily.
+
+Pretty simple right? 
+If you can learn to use some of the slightly more advanced features of MS Word like styles, sections, track changes or automated reference management you can learn markdown pretty easily.
 Also there are now some quite nice visual editors to give you more of the WYSIWYG editing experience if you need a leg-up with the syntax, there is one built right into the tool I'm authoring this document in right now [RStudio](https://rstudio.github.io/visual-markdown-editing/). 
 It even has a nice feature that will let me insert references from my [Zotero](https://www.zotero.org/) library or by DOI search and add them to the bibliography for this [bookdown](https://bookdown.org/) project.
-Also as I write this it is being rendered every time this file is saved to a window I have open on my second monitor so I can see what you will be seeing.
 
-NB Markdown's competitors that largely lost the format wars [reStructuredText (rST)](https://eli.thegreenplace.net/2017/restructuredtext-vs-markdown-for-technical-documentation/) and [AsciiDoc](https://medium.com/@Mister_Gold/stop-using-markdown-for-documentation-5bda05ad17e3) would arguably be a better choice for the text-based *lingua franka* format of academic publication going forward but the tooling and ecosystem around these is just not quite as mature.
+But why do I do this? for one reason as I write this it is being rendered every time this file is saved to a window I have open on my second monitor so I can see what you will be seeing.
+That is if you are reading this on the website because I'm also generating an epub and pdf document from my source text.
+If I felt so inclined I could add a few lines of configuration and also generate a word version, or use I could use [`rticles`](https://github.com/rstudio/rticles) to format it in the style of a paper from my favorite journal. 
+I could also try for various forms of slideshow including powerpoint but this is a bit verbose for slides.
+The point is you get a lot of different output options from the same starting point.
+This is because writing this way makes use of a key insight that is now central to good web design, the separation of the semantic content from how it is formatted.
+
+If like me you are old enough to have been taught to write webpages in school in the early 2000's or to have had a myspace page you may remember setting formatting rules for text in html tags. 
+Setting the color of some text in an html tag is now anathema to the web designer, formatting is done with css not in the html!
+Why? 
+Because you can completely change the look, layout, navigation or the way you display the same content if you structure things this way, that's why I'm able to render this document in three different formats at a keystroke. 
+Its semantic structure is governed by the very simple rules outline above, from that this text can be parsed into a data structure that permits it to be formatted and output in a myriad different ways.
+This also allows for much improved accessibility as a sane order for screen readers inherent in the structure of the source document and what ever size and typeface you'd like this represented in is up to you.
+As well as easy text mining and searching that does not require wrestling this text back out of a pdf into a nice structure for computers to work with.
+
+Also as I alluded to above I often write a mixture of prose and code this is called [Literate Programming](https://en.wikipedia.org/wiki/Literate_programming) where the documentation to my code and my description of what it does is interwoven with the code. 
+It is from this concept that I get the title of this piece "Literate science" my proposition is that we should move to a paradigm of authoring academic manuscripts that resembles literate programming.
+To be clear I'm not suggesting that everyone learns to code nor that our manuscripts should be detailed documentation of code.
+What I am suggesting is that the source document that generates your manuscript should generate every number and figure in that manuscript from your input data.
+You shouldn't need to learn to code to do this. 
+You may, however, need to use tools which generate code which is inserted into the source document for your manuscript, instead of using tools where there is no means of exactly reproducing the steps you took in the analysis you performed with a gui tool (see section \@ref(computational-irreproducibility)).
+Remember that interactive plot I told you to play with back in section \@ref(interact) on in
+
+^[NB Markdown's competitors that largely lost the format wars [reStructuredText (rST)](https://eli.thegreenplace.net/2017/restructuredtext-vs-markdown-for-technical-documentation/) and [AsciiDoc](https://medium.com/@Mister_Gold/stop-using-markdown-for-documentation-5bda05ad17e3) would arguably be a better choice for the text-based *lingua franka* format of academic publication going forward but the tooling and ecosystem around these is just not quite as mature.]
 
 ## Collaboration and version control with `git`
 
