@@ -20,6 +20,8 @@ In the current publishing ecosystem incentives are often actively bad and when t
 
 [goodhart's law](https://en.wikipedia.org/wiki/Goodhart%27s_law) issue with metrics/impact - resolve through alignment
 
+
+
 ## The Review bounty
 
 *A new funding model for academic publishing*
@@ -84,6 +86,7 @@ make it harder to fake signals, gaming metrics/acceptance with low cost noise th
 physics archive - decoupling of publishing from archiv, pre-prints don't solve the problem need a new hybrid solution
 
 ? croud funded news and views bounties?
+pol.is and quadratic voting for review/synthesis subject selection
 
 such a platform has the potential to create a transparent competative market for publication services especially if aided by regulatory or other institutional interventions that penalise the predatory business practices of current industry players
 
