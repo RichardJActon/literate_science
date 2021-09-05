@@ -2,8 +2,16 @@
 
 Out-competing the incumbants on community trust
 
-In order for new companies starting out in the publication space to suceed in addressing the issues that have arisen from the extractive behaviours of the current publishing ~racket~ oligopoly they must outcompete the conventional publishing houses in a number of dimensions. They must do so not merely in ease of use, novel features and scholarly merit, but also in the trust of the academic community that they are not going to become the very thing they sought to destroy and dash our hopes of lasting and effective reform of academic publishing. The academic community must be able to have confidence that the new journals will not be captured by the industy incumbants and lead to the same old problems recurring. Look how Mendeley stagnated after the [Elsevier aquisition](https://www.elsevier.com/about/press-releases/corporate/elsevier-acquires-mendeley,-an-innovative,-cloud-based-research-management-and-social-collaboration-platform) and began introducing anti-features like [encrypting local databases](https://eighty-twenty.org/2018/06/13/mendeley-encrypted-db) reducing user data probability.
+In order for new companies starting out in the publication space to suceed in addressing the issues that have arisen from the extractive behaviors of the current publishing racket/oligopoly they must out compete the conventional publishing houses in a number of dimensions. 
+They must do so not merely in ease of use, novel features and scholarly merit, but also in the trust of the academic community that they are not going to become the very thing they sought to destroy and dash our hopes of lasting and effective reform of academic publishing. 
+The academic community must be able to have confidence that the new journals will not be captured by the industry incumbents and lead to the same old problems recurring. Look how Mendeley stagnated after the [Elsevier aquisition](https://www.elsevier.com/about/press-releases/corporate/elsevier-acquires-mendeley,-an-innovative,-cloud-based-research-management-and-social-collaboration-platform) and began introducing anti-features like [encrypting local databases](https://eighty-twenty.org/2018/06/13/mendeley-encrypted-db) reducing user data probability.
 
+
+Prioritise features that will make it appealing to use for authors/reviewers
+- editing UI, collaboration tools, reference management
+- directly apply reviewer editor changes to fix e.g. typos as PRs - needs guidance for how best to use this for all, build in onboarding 
+- journal template linting - this is a unique feature
+- 
 
 
 A new company starting out in this space
@@ -18,4 +26,10 @@ small practical benefits
 
 pit of sucsess - raise the bar at the low end to make firm foundations for building peaks but not expecting all to be peak feats
 
-better documentation of informal replications performed as precursosrs to other work
+
+'go to market strategy' starts with applying this concept where the Unique selling point of reproducible computation is valuable and the level of technical knowledge is high so the rough edges on UI and effective onboarding can be handled over time.
+This starting market is bioinformatics and other disciplines cognisent of the need for computational reproducibility and with some members already comfortable with things like R notebooks. (let me know if you work in field which fits this description)
+start with a publishing house for such specially journals as an on paper a subsidiary or separate company of the main platform development company and expand into other markets. 
+Academic society journals are in trouble at the moment, they often worked on the closed model and are finding it hard to transition to the open pay to publish model.
+Their overheads for running a journal are quite high this platform would aim to majorly reduce those administrative overheads, making it easier for smaller groups like academic societies to publish a journal
+This is another niche to persure once the initial ease of use kinks are worked out in the more technical communities.
