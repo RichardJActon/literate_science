@@ -79,6 +79,7 @@ If you can't both respectfully take and dish out an intellectually rigorous crit
 review bounties as a key component of the attracting quality reviewer time away from established publishers
 
 [costly signaling theory](https://en.wikipedia.org/wiki/Costly_signaling_theory_in_evolutionary_psychology) in publishing - jumping through arbitary hoops to signal prestige?
+make it harder to fake signals, gaming metrics/acceptance with low cost noise that sounds good but lacks substance, stronger openness norms and smaller units give this bad quality signal less space to hide 
 
 physics archive - decoupling of publishing from archiv, pre-prints don't solve the problem need a new hybrid solution
 
