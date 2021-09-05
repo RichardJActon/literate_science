@@ -69,14 +69,14 @@ This would be an improvement even if we stick to a pdf as the primary end point 
 
 We will now be asking, what can you get when you ditch the static pdf as the primary end point?
 
-## Interactivity, Animation, & More
+## Interactivity, Animation, & More {#interact}
 
 There is some skepticism over the value of interactivity and especially animation in actually being effective at communicating usefully interpetable scientific information.
 Just as there a many ways to produce terrible uninformative graphs there are many ways for interactivity and animation to be ineffectually employed but there are a number of areas in which they excel at effective communication in ways not easily captured in static plots.
 
 To make the point about interactivity I will largely let this little widget from [canvasXpress](https://canvasxpress.org/) make my point for me.
 Imagine ever plot in a scientific paper worked like the widget below.
-No seriously right click in the plot an play around with it a bit.
+No seriously make it full screen and play around with it a bit, right click in the plot and take a look at the options.
 Look at the code I wrote to get this level of functionality, I've left it visible above the plot - yes that's it.
 
 ```{r}
