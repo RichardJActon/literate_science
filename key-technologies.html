@@ -1,0 +1,392 @@
+<!DOCTYPE html>
+<html lang="" xml:lang="">
+<head>
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <title>Section 6 Key Technologies | Literate Science</title>
+  <meta name="description" content="These are my thought on reforms to academic publishing" />
+  <meta name="generator" content="bookdown 0.21 and GitBook 2.6.7" />
+
+  <meta property="og:title" content="Section 6 Key Technologies | Literate Science" />
+  <meta property="og:type" content="book" />
+  
+  
+  <meta property="og:description" content="These are my thought on reforms to academic publishing" />
+  <meta name="github-repo" content="RichardJActon/literate_science" />
+
+  <meta name="twitter:card" content="summary" />
+  <meta name="twitter:title" content="Section 6 Key Technologies | Literate Science" />
+  
+  <meta name="twitter:description" content="These are my thought on reforms to academic publishing" />
+  
+
+<meta name="author" content="Richard J. Acton" />
+
+
+<meta name="date" content="2021-09-05" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+  
+  
+<link rel="prev" href="computational-pitfalls.html"/>
+<link rel="next" href="the-platform.html"/>
+<script src="libs/jquery-2.2.3/jquery.min.js"></script>
+<link href="libs/gitbook-2.6.7/css/style.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-table.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-bookdown.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-highlight.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-search.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-fontsettings.css" rel="stylesheet" />
+<link href="libs/gitbook-2.6.7/css/plugin-clipboard.css" rel="stylesheet" />
+
+
+
+
+
+
+
+
+
+<script src="libs/accessible-code-block-0.0.1/empty-anchor.js"></script>
+<script src="libs/htmlwidgets-1.5.3/htmlwidgets.js"></script>
+<link href="libs/canvasXpress-29.6/canvasXpress.css" rel="stylesheet" />
+<script src="libs/canvasXpress-29.6/canvasXpress.min.js"></script>
+<script src="libs/canvasXpress-binding-1.29.6/canvasXpress.js"></script>
+
+
+<style type="text/css">
+code.sourceCode > span { display: inline-block; line-height: 1.25; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode { white-space: pre; position: relative; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+code.sourceCode { white-space: pre-wrap; }
+code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span.al { color: #ff0000; font-weight: bold; } /* Alert */
+code span.an { color: #60a0b0; font-weight: bold; font-style: italic; } /* Annotation */
+code span.at { color: #7d9029; } /* Attribute */
+code span.bn { color: #40a070; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #007020; font-weight: bold; } /* ControlFlow */
+code span.ch { color: #4070a0; } /* Char */
+code span.cn { color: #880000; } /* Constant */
+code span.co { color: #60a0b0; font-style: italic; } /* Comment */
+code span.cv { color: #60a0b0; font-weight: bold; font-style: italic; } /* CommentVar */
+code span.do { color: #ba2121; font-style: italic; } /* Documentation */
+code span.dt { color: #902000; } /* DataType */
+code span.dv { color: #40a070; } /* DecVal */
+code span.er { color: #ff0000; font-weight: bold; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #40a070; } /* Float */
+code span.fu { color: #06287e; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #60a0b0; font-weight: bold; font-style: italic; } /* Information */
+code span.kw { color: #007020; font-weight: bold; } /* Keyword */
+code span.op { color: #666666; } /* Operator */
+code span.ot { color: #007020; } /* Other */
+code span.pp { color: #bc7a00; } /* Preprocessor */
+code span.sc { color: #4070a0; } /* SpecialChar */
+code span.ss { color: #bb6688; } /* SpecialString */
+code span.st { color: #4070a0; } /* String */
+code span.va { color: #19177c; } /* Variable */
+code span.vs { color: #4070a0; } /* VerbatimString */
+code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warning */
+</style>
+
+<link rel="stylesheet" href="style.css" type="text/css" />
+</head>
+
+<body>
+
+
+
+  <div class="book without-animation with-summary font-size-2 font-family-1" data-basepath=".">
+
+    <div class="book-summary">
+      <nav role="navigation">
+
+<ul class="summary">
+<li><a href="./">Literate Science</a></li>
+
+<li class="divider"></li>
+<li class="chapter" data-level="1" data-path="intro.html"><a href="intro.html"><i class="fa fa-check"></i><b>1</b> Introduction</a><ul>
+<li class="chapter" data-level="1.1" data-path="intro.html"><a href="intro.html#literate-science"><i class="fa fa-check"></i><b>1.1</b> Literate Science</a></li>
+</ul></li>
+<li class="chapter" data-level="2" data-path="units-of-publication.html"><a href="units-of-publication.html"><i class="fa fa-check"></i><b>2</b> Units of publication</a><ul>
+<li class="chapter" data-level="2.1" data-path="units-of-publication.html"><a href="units-of-publication.html#the-new-hierarchy-of-publication-types"><i class="fa fa-check"></i><b>2.1</b> The new hierarchy of publication types</a></li>
+<li class="chapter" data-level="2.2" data-path="units-of-publication.html"><a href="units-of-publication.html#the-minimum-unit-of-publication"><i class="fa fa-check"></i><b>2.2</b> The minimum unit of publication</a></li>
+</ul></li>
+<li class="chapter" data-level="3" data-path="incentives.html"><a href="incentives.html"><i class="fa fa-check"></i><b>3</b> Incentives</a><ul>
+<li class="chapter" data-level="3.1" data-path="incentives.html"><a href="incentives.html#the-review-bounty"><i class="fa fa-check"></i><b>3.1</b> The Review bounty</a><ul>
+<li class="chapter" data-level="3.1.1" data-path="incentives.html"><a href="incentives.html#poor-incentives-for-quality-publishing"><i class="fa fa-check"></i><b>3.1.1</b> poor incentives for quality publishing</a></li>
+</ul></li>
+</ul></li>
+<li class="chapter" data-level="4" data-path="medium-matters.html"><a href="medium-matters.html"><i class="fa fa-check"></i><b>4</b> Medium Matters</a><ul>
+<li class="chapter" data-level="4.1" data-path="medium-matters.html"><a href="medium-matters.html#we-need-to-talk-about-multi-panel-figures"><i class="fa fa-check"></i><b>4.1</b> We need to talk about Multi-panel figures</a></li>
+<li class="chapter" data-level="4.2" data-path="medium-matters.html"><a href="medium-matters.html#interact"><i class="fa fa-check"></i><b>4.2</b> Interactivity, Animation, &amp; More</a><ul>
+<li class="chapter" data-level="4.2.1" data-path="medium-matters.html"><a href="medium-matters.html#the-utility-of-animation-for-representing-uncertainty"><i class="fa fa-check"></i><b>4.2.1</b> The utility of animation for representing uncertainty</a></li>
+</ul></li>
+<li class="chapter" data-level="4.3" data-path="medium-matters.html"><a href="medium-matters.html#objections-to-dropping-pdfs"><i class="fa fa-check"></i><b>4.3</b> Objections to dropping pdfs</a></li>
+</ul></li>
+<li class="chapter" data-level="5" data-path="computational-pitfalls.html"><a href="computational-pitfalls.html"><i class="fa fa-check"></i><b>5</b> Computational Pitfalls</a><ul>
+<li class="chapter" data-level="5.1" data-path="computational-pitfalls.html"><a href="computational-pitfalls.html#computational-transparency-or-lack-thereof"><i class="fa fa-check"></i><b>5.1</b> Computational Transparency (or lack thereof)</a></li>
+<li class="chapter" data-level="5.2" data-path="computational-pitfalls.html"><a href="computational-pitfalls.html#computational-irreproducibility"><i class="fa fa-check"></i><b>5.2</b> Computational Irreproducibility</a></li>
+</ul></li>
+<li class="chapter" data-level="6" data-path="key-technologies.html"><a href="key-technologies.html"><i class="fa fa-check"></i><b>6</b> Key Technologies</a><ul>
+<li class="chapter" data-level="6.1" data-path="key-technologies.html"><a href="key-technologies.html#literate-programming"><i class="fa fa-check"></i><b>6.1</b> Literate Programming</a></li>
+<li class="chapter" data-level="6.2" data-path="key-technologies.html"><a href="key-technologies.html#collaboration-and-version-control-with-git"><i class="fa fa-check"></i><b>6.2</b> Collaboration and version control with <code>git</code></a></li>
+<li class="chapter" data-level="6.3" data-path="key-technologies.html"><a href="key-technologies.html#containers-and-build-pipelines"><i class="fa fa-check"></i><b>6.3</b> Containers and build pipelines</a></li>
+<li class="chapter" data-level="6.4" data-path="key-technologies.html"><a href="key-technologies.html#why-not-blockchain-yet"><i class="fa fa-check"></i><b>6.4</b> Why not Blockchain (yet)?</a></li>
+</ul></li>
+<li class="chapter" data-level="7" data-path="the-platform.html"><a href="the-platform.html"><i class="fa fa-check"></i><b>7</b> The platform</a></li>
+<li class="chapter" data-level="8" data-path="adoption.html"><a href="adoption.html"><i class="fa fa-check"></i><b>8</b> Adoption</a></li>
+<li class="chapter" data-level="" data-path="references.html"><a href="references.html"><i class="fa fa-check"></i>References</a></li>
+<li class="divider"></li>
+<li><a href="https://github.com/rstudio/bookdown" target="blank">Published with bookdown</a></li>
+
+</ul>
+
+      </nav>
+    </div>
+
+    <div class="book-body">
+      <div class="body-inner">
+        <div class="book-header" role="navigation">
+          <h1>
+            <i class="fa fa-circle-o-notch fa-spin"></i><a href="./">Literate Science</a>
+          </h1>
+        </div>
+
+        <div class="page-wrapper" tabindex="-1" role="main">
+          <div class="page-inner">
+
+            <section class="normal" id="section-">
+<div id="key-technologies" class="section level1">
+<h1><span class="header-section-number">Section 6</span> Key Technologies</h1>
+<p>The key technologies to implement all of the ideas proposed here already exist.
+What is needed is a software solution which ties a number of them together in a particular way that fits the use case of writing, reviewing and publishing academic manuscripts.</p>
+<div id="literate-programming" class="section level2">
+<h2><span class="header-section-number">6.1</span> Literate Programming</h2>
+<p><em>The case for writing in plain text </em></p>
+<p>Why would I write in a plain text file when I could use something like word or google docs?
+I used to be a word aficionado I new all the fancy features, and when real-time collaborative editing came along in google docs I was on-board and longing for reference management integrations.
+Now I write almost exclusively in plain text files, I can still do all the same stuff I did in word and google docs but also much more.
+I do this even when I’m not coding I wrote my thesis like this, I’m doing it now.
+I can work in an editor that is a bit more like word or google docs in appearance but because I often write code mixed in with my prose I generally don’t.
+I’m using a simple set of rules for formatting my text document called markdown.</p>
+<p>Here is ~98% of all the markdown syntax you are likely to need to know:</p>
+<pre><code># Heading 1
+
+## Heading 2
+
+## Heading 3 {#h3}
+
+a reference to a section \@ref(h3)
+
+- bullet point
+- another point
+
+1. *italics!*
+2. __Bold__
+
+[hyperlink](https://en.wikipedia.org/wiki/Hyperlink)
+
+Images: [!Alt text](path/to/image)
+
+an inline reference to @key123 or a parenthasized one [@key123]
+
+inline `code`
+
+```
+# A block of code
+print(&quot;Hello, World!&quot;)
+
+```
+
+If using mathjax or a simialar tool: inline latex math: $\frac{x}{y}$
+
+Equations:
+
+$$
+a=\frac{x}{y^2}
+$$</code></pre>
+<p>Pretty simple right?
+If you can learn to use some of the slightly more advanced features of MS Word like styles, sections, track changes or automated reference management you can learn markdown pretty easily.
+Also there are now some quite nice visual editors to give you more of the WYSIWYG editing experience if you need a leg-up with the syntax, there is one built right into the tool I’m authoring this document in right now <a href="https://rstudio.github.io/visual-markdown-editing/">RStudio</a>.
+It even has a nice feature that will let me insert references from my <a href="https://www.zotero.org/">Zotero</a> library or by DOI search and add them to the bibliography for this <a href="https://bookdown.org/">bookdown</a> project.</p>
+<p>But why do I do this? for one reason as I write this it is being rendered every time this file is saved to a window I have open on my second monitor so I can see what you will be seeing.
+That is if you are reading this on the website because I’m also generating an epub and pdf document from my source text.
+If I felt so inclined I could add a few lines of configuration and also generate a word version, or use I could use <a href="https://github.com/rstudio/rticles"><code>rticles</code></a> to format it in the style of a paper from my favorite journal.
+I could also try for various forms of slideshow including powerpoint but this is a bit verbose for slides.
+The point is you get a lot of different output options from the same starting point.
+This is because writing this way makes use of a key insight that is now central to good web design, the separation of the semantic content from how it is formatted.</p>
+<p>If like me you are old enough to have been taught to write webpages in school in the early 2000’s or to have had a myspace page you may remember setting formatting rules for text in html tags.
+Setting the color of some text in an html tag is now anathema to the web designer, formatting is done with css not in the html!
+Why?
+Because you can completely change the look, layout, navigation or the way you display the same content if you structure things this way, that’s why I’m able to render this document in three different formats at a keystroke.
+Its semantic structure is governed by the very simple rules outline above, from that this text can be parsed into a data structure that permits it to be formatted and output in a myriad different ways.
+This also allows for much improved accessibility as a sane order for screen readers inherent in the structure of the source document and what ever size and typeface you’d like this represented in is up to you.
+As well as easy text mining and searching that does not require wrestling this text back out of a pdf into a nice structure for computers to work with.</p>
+<p>Also as I alluded to above I often write a mixture of prose and code this is called <a href="https://en.wikipedia.org/wiki/Literate_programming">Literate Programming</a> where the documentation to my code and my description of what it does is interwoven with the code.
+It is from this concept that I get the title of this piece “Literate science” my proposition is that we should move to a paradigm of authoring academic manuscripts that resembles literate programming.
+To be clear I’m not suggesting that everyone learns to code nor that our manuscripts should be detailed documentation of code.
+What I am suggesting is that the source document that generates your manuscript should generate every number and figure in that manuscript from your input data.
+You shouldn’t need to learn to code to do this.
+You may, however, need to use tools which generate code which is inserted into the source document for your manuscript, instead of using tools where there is no means of exactly reproducing the steps you took in the analysis you performed with a gui tool (see section <a href="computational-pitfalls.html#computational-irreproducibility">5.2</a>).
+Remember that interactive plot I told you to play with back in section <a href="medium-matters.html#interact">4.2</a> on in</p>
+<p><a href="#fn1" class="footnote-ref" id="fnref1"><sup>1</sup></a></p>
+</div>
+<div id="collaboration-and-version-control-with-git" class="section level2">
+<h2><span class="header-section-number">6.2</span> Collaboration and version control with <code>git</code></h2>
+<p><code>git</code> is a tool used by programmers to keep track of and navigate through the history of changes they have made to code, also to collaborate on code.
+Originally developed by Linus Torvalds to facilitate the distributed development of the Linux kernel this tool can be applied as well to any body of text as is can to computer source code.
+This document I’m writing now is in a git repository.
+It is keeping track of the differences between what is in the files I’m editing now and the last time I ‘commited’ my previous set of changes.
+With it I can navigate through all my past changes, and revert to previous versions should I choose to.
+Each commit is associated with a unique hash so if you needed to cite a very specific version of this document you could identify the commit hash associated with the exact version where the change you are interested in was made.
+This is a very useful feature of git for the purposes of academic publishing, the ability to cite a repository and a specific version of that repository permits us to handle updates and retractions much more smoothly.
+If you go to a</p>
+<p>I can collaborate on this text asynchronously with others using <code>git</code>.
+If they ‘fork’ off their own ‘branch’ of the project and make some changes we can ‘merge’ them back together looking at all the places our versions differ and choosing which to keep.
+It also keeps track of who authored which parts of the text, a potentially useful feature for the attribution of authorship credit but with the clear limitation of capturing only who actually wrote the text.
+One could also do google docs style real-time collaborative editing of your source document and then commit the resultant changes with <code>git</code> using a tool such as <a href="https://hackmd.io/">hackmd.io</a>.</p>
+<p><code>git</code> has a fairly rich and complex feature set but these are the key ones for our purposes and they can all be accomplished with fairly easy to use gui interfaces such as those implemented at github and git lab.
+However a git interface tailored to the needs of document authors and not explicitly software development would be a useful addition to the ecosystem and something I would want to see a a part of the platform I’m proposing.</p>
+</div>
+<div id="containers-and-build-pipelines" class="section level2">
+<h2><span class="header-section-number">6.3</span> Containers and build pipelines</h2>
+<p>git and gitlab for versioning in collaborative plaintext document editing markdown as a simple to use plaintext markup lanugage Rmarkdown/kintr/pandoc with Rstudio as document editor/renderer literate programming gitlab ci-cd / docker for reproducible computational environments and automated checking automatically see if your edit to a manuscript if that change breaks a formatting rule automated QC checking and helping, readability analysis, plagarism, stats checks etc.</p>
+</div>
+<div id="why-not-blockchain-yet" class="section level2">
+<h2><span class="header-section-number">6.4</span> Why not Blockchain (yet)?</h2>
+<p><em>You might want to skip this if your not a crytpo person, it’s mostly to explain to people on the crypto train while I’m not on board yet for this project</em></p>
+<p>All this stuff about putting up a bounty, being able to claim that bounty, having amounts of money accrue back to certain parties, doing compute, covering the cost of compute, being open and public sounds like the sort of thing that would gel really interestingly with blockchain with smart contracts and distributed compute?
+- I hear you ask.
+Yes, I answer, but the tooling is not there and the ecosystem is not yet mature enough to support what I am proposing here.
+most of tech stack to support my proposals exists in stuff that was not built to talk to blockchains.
+I expect to see a version of what I propose built on blockchain technology in the future but I anticipate a timescale on the order of decades.
+In addition It would be a barrier to the wider adoption of my proposed approach until such time as crypto has gained wider acceptance and understanding.
+Like it or not justified or not crypto has in the minds of many some negative connotations.
+I’m already asking for quite a big jump from people crypto is like a bridge to far.</p>
+<p>There are many potential advantages: Cyptographically backed identity management for authors, very robust provenance of ideas in a public record, preventing the raising of barriers to knowledge or censorship by governmental of corporate entities through its decentralized nature, etc.
+A strong crytographic base might useful for the implementation of certain security tools such as limiting data asses to approved individuals with verified credentials and access rights. e.g. allowing access to data only if an individual has an api key signed by by several parties such as their personal identification token to demonstrate it is them and by the tokens of an ethics review board. It may also be possible to do things like run analyses on data to which the researcher is never granted access directly and the code to run the analysis has to be signed by a technical review board who have checked the code is not able to exfiltrate the data it is given access to for analysis.</p>
+<p>The ability to transact and have ‘smart contracts’*, to govern the review bounty process does provide a potential upside of this tech especially when it comes to dealing with potential regulatory hurdles associated with this.
+Any situation where you are holding money which you may at some point be obliged to give back to another party tends to attract a lot of red tape.
+Cardano is I think the most likely candidate in the current crypto market to be the basis for such a system given it’s technical characteristics and its governance structure’s fondness for peer-review.
+(Declaration of interest: I have some modest investments in cardano, etherium, bitcoin and monero; cardano having the largest share)</p>
+<p>However in short almost all of the aims I outline here and even many of those stated by people trying to deploy blockchain tech in this space, such as <a href="https://deip.co/about-us/">DEIP</a> &amp; <a href="https://www.vitadao.com/">VitaDAO</a>, can be achieved without the use of blockchain technology.
+Things like author contribution metrics tied to git commits, (imperfect as these would be as a representation of relative contribution), and reputation metrics associated with an author’s ID, even crytographically verifiable IDs, can be accomplished with a PGP web of trust a yubikey and existing git tools like github/gitlab.
+Even much of the decentralized model is achievable through a federated architecture, don’t get me wrong I’m bullish on crypto I just don’t think the layer 2/3 tech that I think this approach to publishing would need to be blockchain-native is ready for prime-time just yet.
+Happy to be convinced otherwise, but I’m going to want to see some running code.</p>
+<p>*This is a terrible name BTW, automated contracts would be a lot more accurate, basic conditional logic != smart.</p>
+
+</div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="1">
+<li id="fn1"><p>NB Markdown’s competitors that largely lost the format wars <a href="https://eli.thegreenplace.net/2017/restructuredtext-vs-markdown-for-technical-documentation/">reStructuredText (rST)</a> and <a href="https://medium.com/@Mister_Gold/stop-using-markdown-for-documentation-5bda05ad17e3">AsciiDoc</a> would arguably be a better choice for the text-based <em>lingua franka</em> format of academic publication going forward but the tooling and ecosystem around these is just not quite as mature.<a href="key-technologies.html#fnref1" class="footnote-back">↩︎</a></p></li>
+</ol>
+</div>
+            </section>
+
+          </div>
+        </div>
+      </div>
+<a href="computational-pitfalls.html" class="navigation navigation-prev " aria-label="Previous page"><i class="fa fa-angle-left"></i></a>
+<a href="the-platform.html" class="navigation navigation-next " aria-label="Next page"><i class="fa fa-angle-right"></i></a>
+    </div>
+  </div>
+<script src="libs/gitbook-2.6.7/js/app.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/lunr.js"></script>
+<script src="libs/gitbook-2.6.7/js/clipboard.min.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-search.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-sharing.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-fontsettings.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-bookdown.js"></script>
+<script src="libs/gitbook-2.6.7/js/jquery.highlight.js"></script>
+<script src="libs/gitbook-2.6.7/js/plugin-clipboard.js"></script>
+<script>
+gitbook.require(["gitbook"], function(gitbook) {
+gitbook.start({
+"sharing": {
+"github": false,
+"facebook": true,
+"twitter": true,
+"linkedin": false,
+"weibo": false,
+"instapaper": false,
+"vk": false,
+"all": ["facebook", "twitter", "linkedin", "weibo", "instapaper"]
+},
+"fontsettings": {
+"theme": "white",
+"family": "sans",
+"size": 2
+},
+"edit": {
+"link": "https://github.com/RichardJActon/literate_science/edit/master/006-Key_technologies.Rmd",
+"text": "Edit"
+},
+"history": {
+"link": null,
+"text": null
+},
+"view": {
+"link": null,
+"text": null
+},
+"download": ["literate-science.pdf", "literate-science.epub"],
+"toc": {
+"collapse": "subsection"
+}
+});
+});
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    var src = "true";
+    if (src === "" || src === "true") src = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-MML-AM_CHTML";
+    if (location.protocol !== "file:")
+      if (/^https?:/.test(src))
+        src = src.replace(/^https?:/, '');
+    script.src = src;
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+</body>
+
+</html>
