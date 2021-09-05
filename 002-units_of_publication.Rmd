@@ -92,3 +92,6 @@ Don't get me wrong there are a lot of good papers out there but increasingly thi
 
 smaller papers = fewer co-authors, thus reduced collective action problem of choice to publish in alternate publications if you don't know your co authors that well you are more likely to assume that they will want to publish in conventional high impact journals and not be too keen on you deciding to publish in a less fashionable venue so we default to the conservative option of a conventional option rather than risk getting into an extended email argument about the benefits of open science with collaborators who we want to keep happy.
 We are [stuck in a bad nash equilibrium](https://equilibriabook.com/molochs-toolbox/) because of our assumptions about our co-authors and they may not be as valid as we conservatively expect.
+
+
+better documentation of informal replications performed as precursosrs to other work
