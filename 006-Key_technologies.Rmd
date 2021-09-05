@@ -65,10 +65,27 @@ NB Markdown's competitors that largely lost the format wars [reStructuredText (r
 
 ## Collaboration and version control with `git`
 
-git is a tool used by programmers to keep track of and navigate through the history of changes they have made to code, also to collaborate on code 
+`git` is a tool used by programmers to keep track of and navigate through the history of changes they have made to code, also to collaborate on code.
+Originally developed by Linus Torvalds to facilitate the distributed development of the Linux kernel this tool can be applied as well to any body of text as is can to computer source code.
+This document I'm writing now is in a git repository.
+It is keeping track of the differences between what is in the files I'm editing now and the last time I 'commited' my previous set of changes.
+With it I can navigate through all my past changes, and revert to previous versions should I choose to.
+Each commit is associated with a unique hash so if you needed to cite a very specific version of this document you could identify the commit hash associated with the exact version where the change you are interested in was made.
+This is a very useful feature of git for the purposes of academic publishing, the ability to cite a repository and a specific version of that repository permits us to handle updates and retractions much more smoothly.
+If you go to a
+
+I can collaborate on this text asynchronously with others using `git`.
+If they 'fork' off their own 'branch' of the project and make some changes we can 'merge' them back together looking at all the places our versions differ and choosing which to keep.
+It also keeps track of who authored which parts of the text, a potentially useful feature for the attribution of authorship credit but with the clear limitation of capturing only who actually wrote the text. 
+One could also do google docs style real-time collaborative editing of your source document and then commit the resultant changes with `git` using a tool such as [hackmd.io](https://hackmd.io/).
+
+`git` has a fairly rich and complex feature set but these are the key ones for our purposes and they can all be accomplished with fairly easy to use gui interfaces such as those implemented at github and git lab.
+However a git interface tailored to the needs of document authors and not explicitly software development would be a useful addition to the ecosystem and something I would want to see a a part of the platform I'm proposing.
 
 ## Containers and build pipelines
 
+
+git and gitlab for versioning in collaborative plaintext document editing markdown as a simple to use plaintext markup lanugage Rmarkdown/kintr/pandoc with Rstudio as document editor/renderer literate programming gitlab ci-cd / docker for reproducible computational environments and automated checking automatically see if your edit to a manuscript if that change breaks a formatting rule automated QC checking and helping, readability analysis, plagarism, stats checks etc.
 
 
 ## Why not Blockchain (yet)?
