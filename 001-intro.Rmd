@@ -1,5 +1,3 @@
-# Introduction {#intro}
-
 ## Literate Science
 
 *A new paradigm for academic publishing*
