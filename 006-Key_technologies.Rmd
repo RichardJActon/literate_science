@@ -73,11 +73,28 @@ git is a tool used by programmers to keep track of and navigate through the hist
 
 ## Why not Blockchain (yet)?
 
+*You might want to skip this if your not a crytpo person, it's mostly to explain to people on the crypto train while I'm not on board yet for this project*
+
 All this stuff about putting up a bounty, being able to claim that bounty, having amounts of money accrue back to certain parties, doing compute, covering the cost of compute, being open and public sounds like the sort of thing that would gel really interestingly with blockchain with smart contracts and distributed compute?
 - I hear you ask.
-Yes, I answer, but the tooling is not there and the ecosystem is not yet mature enough a version of what I am proposing here built on blockchain technology is something that I expect to see in the future.
-It would be a barrier to the wider adoption of my proposed approach until such time as crypto has gained wider acceptance.
+Yes, I answer, but the tooling is not there and the ecosystem is not yet mature enough to support what I am proposing here.
+most of tech stack to support my proposals exists in stuff that was not built to talk to blockchains.
+I expect to see a version of what I propose built on blockchain technology in the future but I anticipate a timescale on the order of decades.
+In addition It would be a barrier to the wider adoption of my proposed approach until such time as crypto has gained wider acceptance and understanding.
+Like it or not justified or not crypto has in the minds of many some negative connotations.
+I'm already asking for quite a big jump from people crypto is like a bridge to far.
+
 There are many potential advantages: Cyptographically backed identity management for authors, very robust provenance of ideas in a public record, preventing the raising of barriers to knowledge or censorship by governmental of corporate entities through its decentralized nature, etc.
-There is potential regulatory complexity around the bounty based model proposed here as any situation where you are holding money which you may at some point be obliged to give back to another party tends to attract a lot of red tape.
-The relative regulatory Crypto Cardano is think the most likely candidate in the current crypto market to be the basis for such a system given it's technical characteristics and its governance structure's fondness for peer-review.
-(Declaration of interest: I have some modest investments in cardano, etherium, bitcoin and monero)
+A strong crytographic base might useful for the implementation of certain security tools such as limiting data asses to approved individuals with verified credentials and access rights. e.g. allowing access to data only if an individual has an api key signed by by several parties such as their personal identification token to demonstrate it is them and by the tokens of an ethics review board. It may also be possible to do things like run analyses on data to which the researcher is never granted access directly and the code to run the analysis has to be signed by a technical review board who have checked the code is not able to exfiltrate the data it is given access to for analysis.
+
+The ability to transact and have 'smart contracts'*, to govern the review bounty process does provide a potential upside of this  tech especially when it comes to dealing with potential regulatory hurdles associated with this.
+Any situation where you are holding money which you may at some point be obliged to give back to another party tends to attract a lot of red tape.
+Cardano is I think the most likely candidate in the current crypto market to be the basis for such a system given it's technical characteristics and its governance structure's fondness for peer-review.
+(Declaration of interest: I have some modest investments in cardano, etherium, bitcoin and monero; cardano having the largest share)
+
+However in short almost all of the aims I outline here and even many of those stated by people trying to deploy blockchain tech in this space, such as [DEIP](https://deip.co/about-us/) & [VitaDAO](https://www.vitadao.com/), can be achieved without the use of blockchain technology. 
+Things like author contribution metrics tied to git commits, (imperfect as these would be as a representation of relative contribution), and reputation metrics associated with an author's ID, even crytographically verifiable IDs, can be accomplished with a PGP web of trust a yubikey and existing git tools like github/gitlab.
+Even much of the decentralized model is achievable through a federated architecture, don't get me wrong I'm bullish on crypto I just don't think the layer 2/3 tech that I think this approach to publishing would need to be blockchain-native is ready for prime-time just yet.
+Happy to be convinced otherwise, but I'm going to want to see some running code.
+
+*This is a terrible name BTW, automated contracts would be a lot more accurate, basic conditional logic != smart.
