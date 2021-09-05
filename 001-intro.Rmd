@@ -17,7 +17,7 @@ In addition they draw from the ideas of [nano-publications](http://nanopub.org/w
 Furthermore a number of tools, ideas and practices from modern software development contribute to the bases of some of the proposals to follow.
 These include: The concept of [literate programming](https://en.wikipedia.org/wiki/Literate_programming) in which code and it's documentation, context and explanation are part of the same corpus of text.
 Version/source control of text with [git](https://en.wikipedia.org/wiki/Git) facilitating distributed collaboration on texts, history and tracking of changes, and attribution of authorship of individual contributions to a text.
-Reproducible computational environments with containerisation technologies such as docker and Continuous integration/deployment pipelines to automate testing, checking and building and deployment/publication of software products.
+Reproducible computational environments with containerization technologies such as docker and Continuous integration/deployment pipelines to automate testing, checking and building and deployment/publication of software products.
 
 The economics and game theory of proposed solutions as well as gaining the trust and confidence of the academic community are given central importance here and the technical considerations are a means to this end.
 
