@@ -4,9 +4,9 @@
 
 The traditional hierarchy of scientific publications looks something like this:
 
--   Textbooks
--   Reviews
 -   Primary papers
+-   Reviews
+-   Textbooks
 
 Running from the narrowest to the broadest scope and most detail to the highest level of synthesis and abstraction, in theory. 
 This is an oversimplification and we have been adding to the ontology of publication types somewhat in recent years, more on this later. 
@@ -19,13 +19,13 @@ These essential functions of the scientific community with immense civic import 
 
 Integrating many of the new forms of publication that have arisen I would propose a new more granular hierarchy:
 
--   Science communication (multimedia, curricula, policy briefs etc.)
--   "git-books" - much like a textbook but under continuous revision
--   Topic Reviews, Curated Best practice resources for lab protocols and computational pipelines as well as, Benchmarking resources
--   Theory, synthesis and prediction (without a requirement for experimental detail but ideally with resolution criteria)
--   Experimental results
--   Data, Methods, Protocols, Pipelines, & Software publications
 -   pre-registrations / experimental plans/designs
+-   Data, Methods, Protocols, Pipelines, & Software publications
+-   Experimental results
+-   Theory, synthesis and prediction (without a requirement for experimental detail but ideally with resolution criteria)
+-   Topic Reviews, Curated Best practice resources for lab protocols and computational pipelines as well as, Benchmarking resources
+-   "git-books" - much like a textbook but under continuous revision
+-   Science communication (multimedia, curricula, policy briefs etc.)
 
 We have made some progress towards this model already, everything that I list here already exists in some form after all.
 We have however not really thought or talked about them much when put together as a whole - at least not in my experience.
