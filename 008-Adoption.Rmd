@@ -1,8 +1,8 @@
 # Adoption
 
-Out-competing the incumbants on community trust
+Out-competing the incumbents on community trust
 
-In order for new companies starting out in the publication space to suceed in addressing the issues that have arisen from the extractive behaviors of the current publishing racket/oligopoly they must out compete the conventional publishing houses in a number of dimensions. 
+In order for new companies starting out in the publication space to succeed in addressing the issues that have arisen from the extractive behaviors of the current publishing racket/oligopoly they must out compete the conventional publishing houses in a number of dimensions. 
 They must do so not merely in ease of use, novel features and scholarly merit, but also in the trust of the academic community that they are not going to become the very thing they sought to destroy and dash our hopes of lasting and effective reform of academic publishing. 
 The academic community must be able to have confidence that the new journals will not be captured by the industry incumbents and lead to the same old problems recurring. Look how Mendeley stagnated after the [Elsevier aquisition](https://www.elsevier.com/about/press-releases/corporate/elsevier-acquires-mendeley,-an-innovative,-cloud-based-research-management-and-social-collaboration-platform) and began introducing anti-features like [encrypting local databases](https://eighty-twenty.org/2018/06/13/mendeley-encrypted-db) reducing user data probability.
 
@@ -32,4 +32,4 @@ This starting market is bioinformatics and other disciplines cognisent of the ne
 start with a publishing house for such specially journals as an on paper a subsidiary or separate company of the main platform development company and expand into other markets. 
 Academic society journals are in trouble at the moment, they often worked on the closed model and are finding it hard to transition to the open pay to publish model.
 Their overheads for running a journal are quite high this platform would aim to majorly reduce those administrative overheads, making it easier for smaller groups like academic societies to publish a journal
-This is another niche to persure once the initial ease of use kinks are worked out in the more technical communities.
+This is another niche to pursue once the initial ease of use kinks are worked out in the more technical communities.
