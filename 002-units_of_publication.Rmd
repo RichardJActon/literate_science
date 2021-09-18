@@ -48,6 +48,7 @@ current nano-publication infrastructure need and of work before it will be a smo
 
 However, it would be somewhat cumbersome and impractical to write only in nano-publications, whilst they may be convenient for a machine legibility they are less convenient for human legibility and I envisage them catching on once at least semi-automated tools can convert a more human unit of publication into a collection of nano-publications.
 
+*not jumping straight to publications human units of publications*
 
 Modern publications particularly in the life sciences (my home territory) are too long, too complex, too narrative driven and, in partial contradiction with being too long are often too compressed.
 I'll be expanding on these points, but for now take my word for it that this is not merely me complaining about trying to read 50 page cell papers and still have the time to do anything else.
