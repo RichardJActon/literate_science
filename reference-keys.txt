@@ -2,7 +2,9 @@ intro
 literate-science
 units-of-publication
 the-new-hierarchy-of-publication-types
+problems-with-the-current-units-of-publication-and-how-the-new-ones-address-them
 the-minimum-unit-of-publication
+the-human-unit-of-publication
 incentives
 the-old-funding-models
 pathologies-of-the-subscription-model-in-the-internet-era

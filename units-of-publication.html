@@ -24,7 +24,7 @@
 <meta name="author" content="Richard J. Acton" />
 
 
-<meta name="date" content="2021-09-18" />
+<meta name="date" content="2021-12-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -143,7 +143,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="2" data-path="units-of-publication.html"><a href="units-of-publication.html"><i class="fa fa-check"></i><b>2</b> Units of publication</a><ul>
 <li class="chapter" data-level="2.1" data-path="units-of-publication.html"><a href="units-of-publication.html#the-new-hierarchy-of-publication-types"><i class="fa fa-check"></i><b>2.1</b> The new hierarchy of publication types</a></li>
-<li class="chapter" data-level="2.2" data-path="units-of-publication.html"><a href="units-of-publication.html#the-minimum-unit-of-publication"><i class="fa fa-check"></i><b>2.2</b> The minimum unit of publication</a></li>
+<li class="chapter" data-level="2.2" data-path="units-of-publication.html"><a href="units-of-publication.html#problems-with-the-current-units-of-publication-and-how-the-new-ones-address-them"><i class="fa fa-check"></i><b>2.2</b> Problems with the current units of publication and how the new ones address them</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="units-of-publication.html"><a href="units-of-publication.html#the-minimum-unit-of-publication"><i class="fa fa-check"></i><b>2.2.1</b> The minimum unit of publication</a></li>
+<li class="chapter" data-level="2.2.2" data-path="units-of-publication.html"><a href="units-of-publication.html#the-human-unit-of-publication"><i class="fa fa-check"></i><b>2.2.2</b> The Human Unit of Publication</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="incentives.html"><a href="incentives.html"><i class="fa fa-check"></i><b>3</b> Incentives</a><ul>
 <li class="chapter" data-level="3.1" data-path="incentives.html"><a href="incentives.html#the-old-funding-models"><i class="fa fa-check"></i><b>3.1</b> The Old Funding models</a><ul>
@@ -226,33 +229,80 @@ These essential functions of the scientific community with immense civic import 
 <p>We have made some progress towards this model already, everything that I list here already exists in some form after all.
 We have however not really thought or talked about them much when put together as a whole - at least not in my experience.
 Bringing this more granular view of the unit scientific publication to the fore I think has a number of advantages.</p>
-<blockquote>
-<p>Consider implications of new forms of publication for existing ones</p>
-</blockquote>
+<!-- *Consider implications of new forms of publication for existing ones* -->
 </div>
-<div id="the-minimum-unit-of-publication" class="section level2">
-<h2><span class="header-section-number">2.2</span> The minimum unit of publication</h2>
+<div id="problems-with-the-current-units-of-publication-and-how-the-new-ones-address-them" class="section level2">
+<h2><span class="header-section-number">2.2</span> Problems with the current units of publication and how the new ones address them</h2>
+<p>Modern publications particularly in the life sciences (my home territory) are too long, too complex, too narrative driven and, in partial contradiction with being too long are often too compressed.
+I’ll be expanding on these points, but for now take my word for it that this is not merely me complaining about trying to read 50 page cell papers and still have the time to do anything else.
+As the ability to do experimental work has increased due to technological advances that have rendered some projects that would have taken decades 20-30 years ago achievable in months the expectations for publications have changed.
+Reading papers from the 1980’s and 90’s one is struck by their relative shortness and simplicity compared to many modern papers.
+Indeed, empirically scientific manuscripts are getting <a href="https://doi.org/10.7554/eLife.27725.001">harder to read</a> <span class="citation">(Plavén-Sigray et al. <a href="#ref-plavén-sigray2017" role="doc-biblioref">2017</a>)</span>.</p>
+<p><em>TODO Check the data on length, has it actually increased?, analyse the pubmed full text dataset</em></p>
+<p>I would argue that is this mostly not due to an intrinsic increase in the complexity of the systems we are able to study and the methods that we are using to study them.
+These have increased and some of the added difficulty may be accounted for by the increasing number and narrowness of specialties but I think more blame is due to failure to adapt institutional structures around ever more and narrower specialties as well as publication practices.</p>
+<p>Annecdotally it is my impression that the number of experiments and the technical complexity of those experiments per paper has been on the rise <em>(I would welcome empirical evidence from literature mining on this subject to confirm or disconfirm my conjecture here).</em>
+It is marvelous that we can get more done and that we have sophisticated new tools with which to work, however this presents a number of problems when publishing.</p>
+<div id="the-minimum-unit-of-publication" class="section level3">
+<h3><span class="header-section-number">2.2.1</span> The minimum unit of publication</h3>
 <p>Let us step back for a moment a consider what is the minimum unit of publication? According to the proponents of ‘nanopublications’ this minimal unit of publication is a simple statement consisting of a subject, object predicate triple that is generated by some author and asserted by some party <span class="citation">(Groth, Gibson, and Velterop <a href="#ref-groth2010" role="doc-biblioref">2010</a>)</span>.</p>
 <blockquote>
 <p><em>e.g.</em> the journal of the widely understood asserts that the statement “Malaria is transmitted by mosquitoes” was authored by John Smith.</p>
 </blockquote>
 <p>This minimal unit of publication structured in this fashion has a number of very useful properties for automating the creation of a web of semantic meaning in the scientific literature.
-Such structure has considerable potential to increase the ease and effectiveness of literature mining and may permit semi-automated means of assessing the weight of evidence supporting a particular statement and identifying gaps and weaknesses it the current state of understanding of particular topics.</p>
-<p>semantic web rdp graph structure etc. <a href="https://en.wikipedia.org/wiki/Semantic_Web" class="uri">https://en.wikipedia.org/wiki/Semantic_Web</a></p>
-<p>current nano-publication infrastructure need and of work before it will be a smooth easy to use experience for most would be authors and I suspect also some major performance optimizations for handling large datasets.</p>
-<p>However, it would be somewhat cumbersome and impractical to write only in nano-publications, whilst they may be convenient for a machine legibility they are less convenient for human legibility and I envisage them catching on once at least semi-automated tools can convert a more human unit of publication into a collection of nano-publications.</p>
-<p><em>not jumping straight to publications human units of publications</em></p>
-<p>Modern publications particularly in the life sciences (my home territory) are too long, too complex, too narrative driven and, in partial contradiction with being too long are often too compressed.
-I’ll be expanding on these points, but for now take my word for it that this is not merely me complaining about trying to read 50 page cell papers and still have the time to do anything else.
-As the ability to do experimental work has increased in the life sciences due to technological advances that have rendered some projects that would have taken decades 20-30 years ago achievable in months the expectations for publications have changed.
-Reading papers from the 1980’s and 90’s one is struck by their relative shortness and simplicity compared to many modern papers.
-Indeed, empirically scientific manuscripts are getting <a href="https://doi.org/10.7554/eLife.27725.001">harder to read</a> <span class="citation">(Plavén-Sigray et al. <a href="#ref-plavén-sigray2017" role="doc-biblioref">2017</a>)</span>.</p>
-<p><em>Check the data on length, has it actually increased?</em></p>
-<p>I would argue that is this mostly not due to an intrinsic increase in the complexity of the systems we are able to study and the methods that we are using to study them.
-These have increased and some of the added difficulty may be accounted for by the increasing number and narrowness of specialties but I think more blame is due to failure to adapt institutional structures around ever more and narrower specialties as well as publication practices.</p>
-<p>Annecdotally it is my impression that the number of experiments and the technical complexity of those experiments per paper has been on the rise <em>(I would welcome empirical evidence from literature mining on this subject to confirm or disconfirm my conjecture here).</em>
-It is marvelous that we can get more done and that we have sophisticated new tools with which to work, however this presents a number of problems when publishing.</p>
-<p>Firstly for the peer review process: For an increasing number of papers the scope of what they investigate exceeds the reasonable ability of the typical number of reviewers to adequately assess the material.
+nanopublications have an <a href="https://en.wikipedia.org/wiki/Resource_Description_Framework">Resource Description Framework (RDF)</a> graph structure conformant with <a href="https://en.wikipedia.org/wiki/World_Wide_Web_Consortium">W3C</a> standards for a <a href="https://en.wikipedia.org/wiki/Semantic_Web">semantic web</a> which provide a formal structure to publication metadata which would massively improve the transparency of the structure of semantically meaningful relationships in the published scientific literature to automated analyses.
+Such structure has considerable potential to increase the ease and effectiveness of literature mining and may permit semi-automated means of assessing the weight of evidence supporting a particular statement and identifying gaps and weaknesses it the current state of understanding of particular topics.<a href="#fn2" class="footnote-ref" id="fnref2"><sup>2</sup></a></p>
+<p>However, it would be somewhat cumbersome and impractical to write only in nano-publications, whilst they may be convenient for a machine legibility they are less convenient for human legibility.
+I envisage them catching on once at least semi-automated tools can convert a more human unit of publication into a collection of nano-publications.
+Thus my proposal is not to jump directly to nanopublications but rather to adopt micropublications, a minimal unit of publication on a more human scale.</p>
+</div>
+<div id="the-human-unit-of-publication" class="section level3">
+<h3><span class="header-section-number">2.2.2</span> The Human Unit of Publication</h3>
+<p>The scale I propose is approximately that of a single experiment when publishing results, with the scope getting a little harder to delineate for some other types of publication.
+Where now you publish a single paper you would instead publish a series of micropublications.
+You might start with an outline of the question that you are seeking to address defining the experiment(s) you would like to perform and the predictions you make for their outcomes.
+You would then follow up with a number of micropublications detailing results of individual experiments and lastly with a synthesis publication which draws together your results into an explanatory narrative.
+This series of publications need not come exclusively from your research group, you might collaborate with others, with individual experiments being predominantly carried out and authored by other groups or simply making use of the results of others which make the desired point and citing them or collaborating with them when writing your synthesis.
+I contend that this way of working would have a number of major advantages over the current publication model, which I will now outline of greater detail.</p>
+<p>First publishing an experimental question micropublication can serve as a preregistration of your study which will later allow a clear delineation between advanced predictions and <em>post-hoc</em> analyses that is often lacking under current publishing norms.
+In addition the process defining your question and plan with sufficient clarity to publish it and to solicit feedback on this plan from other domain experts is an extremely useful exercise for catching and fixing things like issues with the experimental design, potential technical problems, and lack of clarity in your question.
+I’d bet an alarming amount of resources are wasted as a results of imperfectly conceived experiments performed by researchers who have not subjected their plans to adequate advanced scrutiny.
+This approach shortens the feedback loop.
+It also leverages a social psychological pressure to generate something of high quality when doing it in public this serves as a commitment device to produce well defined, high quality experimental plans of a standard you might not reach if you are only making them for your own internal consumption.</p>
+<p>Of course not all work can be readily subject to this process.
+Exploratory analysis that reveals interesting and unexpected things is important, useful and by it’s nature is not readily subject to pre-registration.
+The point is not to de-value this work but to much more effectively differentiate it from formally predictive hypothesis testing which is an important statistical distinction that is not always easily discerned in the current format.
+A perfectly valid micropublication could be one which details interesting observations and potentially resultant predictions made from exploratory data analysis of data not explicitly generated to address the question now being asked of it.</p>
+<p>Publishing micropublications also provides a better credit attribution model than for larger papers as by its nature a smaller number of people are likely to contribute to a smaller publication.
+The lead author (in biological publishing conventions) may differ across a series of micropublications that if condensed to a single paper would see the bulk of the credit go to a single individual.
+Fewer co-authors also reduces collective action problem of choice to publish in alternate publication venues if you don’t know your co-authors that well you are more likely to assume that they will want to publish in conventional high impact journals and not be too keen on you deciding to publish in a less fashionable venue so we default to the conservative option of a conventional journal rather than risk getting into an extended email argument about the benefits of open science with collaborators who we want to keep happy.
+We are <a href="https://equilibriabook.com/molochs-toolbox/">stuck in a bad nash equilibrium</a> because of our assumptions about our co-authors and they may not be as valid as we conservatively expect.</p>
+<p>Publishing in this more piecemeal fashion serves as an antidote to two related problems that of excessive narrative seeking in long form publication and of the file draw effect.
+The incentive to have a nice clean tight narrative into which all of your results fit perfectly in order to publish a paper contributes to the file draw effect as people may be inclined not to publish the results of experiments which do not fit the narrative as well as they hoped.
+If you publish as you go you can’t decide to hold a result back that does not fit a story.
+If you are constructing the narrative from units that you have already published you are forced to address any conflicting data and engage with judging the relative merits of the available data and/or those of your proposed model.</p>
+<p>It is also likely to lead to a higher number of publications of negative results as pre-registering an experiment carries greater incentives to follow it up with the results*</p>
+<!-- incentivise follow up with publication bounty rebates on followed up on registered experiments irrespective of outcome -->
+<p>In addition this should also lead to the increased documentation of experiments which failed for technical reasons.
+This is a gap in the publication record that I suspect leads to a lot of wasted resources as many separate groups may have the same idea to test the seemingly obvious thing that turns out to be a lot more technically challenging than anticipated.
+If failed attempts were better documented it would facilitate groups iterating on different approaches to the problem rather than potentially independently hitting the same stumbling blocks.
+Increasing the degree to which informal knowledge of these sort of technical challenges is codified rather than remaining implicit in the oral traditions of individual research groups, as is quite commonplace, is a boon to future attempts at replicating experimental work.</p>
+<p>The point of scientific culture is to create a <a href="https://blog.codinghorror.com/falling-into-the-pit-of-success/">pit of sucess</a> for the truth seeking process, to establish a set of cultural norms which make it as inevitable as possible that our collective map of reality incrementally conforms ever more closely to the underlying territory.
+To make it hard for us to do anything other than our best work, the current publishing model is not a pit of success it is a pinnacle that you must strive to climb to produce high quality work.
+This is not to say that good science is not hard work quite the opposite.
+It is framing the publishing process as a design problem for how structure the incentives to make it easier to get rewarded for producing high quality work and very hard to get rewarded for low quality work.
+In costly signaling theory terms it’s making the signal of getting a peer reviewed publication very tightly correspond to high quality work.
+At present the quality of the signal is a little degraded, it is possible to put forth a lesser effort orthogonal to the scientific merit of the work in order to get published, somewhat analogous to the classic textbook example of gluing on some longer tail feathers to Jackson’s widow birds, tail length ceases to be a good indicator of mate quality.
+Don’t get me wrong there are a lot of good papers out there but increasingly this seems to be in spite of and not because of the publication medium.</p>
+<p>It is possible to split the readership of a typical primary research paper into two groups which I call technical and contextual readers.
+A technical reader is doing very similar work to that done in the paper and is interested in the detailed methodology of that paper as they may do something similar themselves.
+The contextual reader is primarily interested in the conclusions of the paper, and applying the understanding that it generated to thinking about their own related question.
+These two audiences frequently overlap in the same person but not always</p>
+<p>As currently consititutes papers are frequently sub-optimally structured for both audiences</p>
+<p>synthesis ~ review more optimal depth for the two audiances of a paper, the technical and the contextual
+push technical experimental detail down into the results micropublications with more high level considerations in the synthesis or only experimental details which are under dispute</p>
+<p>speaks to the compression issue, gives the individual components space to breath and acctually provide adaquate technical details and does not make extracting a higher level understanding more difficult due to the inclusion of extraneous detail.</p>
+<p>For an increasing number of papers the scope of what they investigate exceeds the reasonable ability of the typical number of reviewers to adequately assess the material.
 Domain expertise in the system being studied, statistical expertise, methodological expertise in the methods employed are all needed for a rigorous assessment of most papers.
 The larger and more complex the unit of publication the greater the opportunity for <a href="https://en.wikipedia.org/wiki/Diffusion_of_responsibility">diffusion of responsibility</a> among the reviewers who may be free to assume that one of the others will give adequate scrutiny to aspects outside their direct expertise, this may not be the case.
 As papers cover an increasing number, and more complex experiments the probability of error in some part of the work increases, as the more things are in a unit of publication the more chances there are for at least one of them to be in error.
@@ -264,22 +314,20 @@ one pool of reviewers none of whom have stats expertise and count how often to t
 Try this for a conventional publication and ‘micropublication’ containing essentially only the experiment with the error.</p>
 <p>That addresses criticisms of too long and complex, now for the related problem of being what I think of as too compressed.
 The text of papers in nature for instance is almost always to short to adequately convey the necessary detail for the amount of work that has been done to justify a place in such a prestigious publication. It is a primary publication so must be precise and near exhaustive in its description of the work done</p>
-<p>Excessive narrative seeking can contribute to the file-draw effect, if you can’t make a good story of it you might not publish it. The expectation of turning work into a ‘full paper’ can also have bad incentives, for some project you go out on a lim and it does not work in way that left you write a full paper but data generated and other aspects of the work are</p>
-<p>This greater specialization of publication types reduces citation dilution, increases reviewability by narrowing the scope of expertise necessary to evaluate smaller publications. It also pushes the making of narratives away from the primary research where it can contribute to the file draw problem and pushes it to it’s own ‘sense making’ layer. This also reduces time to publication it can take years to get things published under the current paradigm, this should tell us publications are too big and too complex and need to be broken into smaller parts to shorten the feedback loop of the review process.</p>
+<!-- Excessive narrative seeking can contribute to the file-draw effect, if you can't make a good story of it you might not publish it. The expectation of turning work into a 'full paper' can also have bad incentives, for some project you go out on a limb and it does not work in way that left you write a full paper but data generated and other aspects of the work are -->
+<p>This greater specialization of publication types reduces citation dilution, increases reviewability by narrowing the scope of expertise necessary to evaluate smaller publications.
+It also pushes the making of narratives away from the primary research where it can contribute to the file draw problem and pushes it to it’s own ‘sense making’ layer.
+This also reduces time to publication it can take years to get things published under the current paradigm, this should tell us publications are too big and too complex and need to be broken into smaller parts to shorten the feedback loop of the review process.</p>
 <p>This stack also enables professional scientific specialization not purely in the dimension of subject specialty but at level of analysis, you could specialize in sharpening up the theoretical models or experimental design in a broader array of disciplines publishing mostly at the theory level or generate a lot of high quality data.
 High level synthesis, curation and communication of important scientific discovery in the field as gitbook maintainers to keep the ‘textbooks’ current on an ongoing basis without the constraint of editions whilst remaining citable because of version control.
 Increases accessibility of publishing to students and non-domain experts making smaller contributions that are still in the public interest to have published.
 It may be argued that this approach increases the amount of ‘noise’ there are already so many publications that it is impossible to keep up in many fields, this is part of why new specialties are needed in the synthesis of experimental information into models.
 It is only possible for individuals to keep up will all the primary publications in a few very narrow specialties…</p>
-<p>Another element that this model contributes in greater codification of understanding that often goes un-codified both at the level of specific methodological detail and at the level of the mental models that researchers are using to reason about their research.</p>
-<ul>
-<li>currently lacking a self regulatory mechanism to govern the balance between publications of the different types so we don’t end up with a bunch of unanalysed data / too much theorizing?</li>
-</ul>
-<p>Don’t get me wrong there are a lot of good papers out there but increasingly this seems to be in spite of and not because of the publication medium.</p>
-<p>smaller papers = fewer co-authors, thus reduced collective action problem of choice to publish in alternate publications if you don’t know your co authors that well you are more likely to assume that they will want to publish in conventional high impact journals and not be too keen on you deciding to publish in a less fashionable venue so we default to the conservative option of a conventional option rather than risk getting into an extended email argument about the benefits of open science with collaborators who we want to keep happy.
-We are <a href="https://equilibriabook.com/molochs-toolbox/">stuck in a bad nash equilibrium</a> because of our assumptions about our co-authors and they may not be as valid as we conservatively expect.</p>
-<p>better documentation of informal replications performed as precursors to other work</p>
+<!-- -   currently lacking a self regulatory mechanism to govern the balance between publications of the different types so we don't end up with a bunch of unanalysed data / too much theorizing? -->
+<p>One frequently needs to repeat the experiments done by another experimenter to establish a protocol new to your lab and some modification of which you intend to use in your own experiment.
+A micropublication framework also makes it easier to better document these sorts of informal replications performed as precursors to other work it would be very simple to generate a micropublication detailing the replication to provide a better picture of the robustness of the result.</p>
 
+</div>
 </div>
 </div>
 <h3>References</h3>
@@ -290,6 +338,12 @@ We are <a href="https://equilibriabook.com/molochs-toolbox/">stuck in a bad nash
 <div id="ref-plavén-sigray2017">
 <p>Plavén-Sigray, Pontus, Granville James Matheson, Björn Christian Schiffler, and William Hedley Thompson. 2017. “The Readability of Scientific Texts Is Decreasing over Time.” <em>eLife</em> 6 (September). <a href="https://doi.org/10.7554/elife.27725">https://doi.org/10.7554/elife.27725</a>.</p>
 </div>
+</div>
+<div class="footnotes">
+<hr />
+<ol start="2">
+<li id="fn2"><p>In addition current nano-publication infrastructure needs a lot of work before it will be a smooth easy-to-use experience for most would-be authors and I suspect also some major performance optimizations would be needed for handling large datasets.<a href="units-of-publication.html#fnref2" class="footnote-back">↩︎</a></p></li>
+</ol>
 </div>
             </section>
 
@@ -339,7 +393,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["literate-science.pdf", "literate-science.epub"],
+"download": ["literate-science.epub"],
 "toc": {
 "collapse": "subsection"
 }

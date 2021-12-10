@@ -24,7 +24,7 @@
 <meta name="author" content="Richard J. Acton" />
 
 
-<meta name="date" content="2021-09-18" />
+<meta name="date" content="2021-12-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <meta name="apple-mobile-web-app-capable" content="yes" />
@@ -143,7 +143,10 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; } /* Warni
 </ul></li>
 <li class="chapter" data-level="2" data-path="units-of-publication.html"><a href="units-of-publication.html"><i class="fa fa-check"></i><b>2</b> Units of publication</a><ul>
 <li class="chapter" data-level="2.1" data-path="units-of-publication.html"><a href="units-of-publication.html#the-new-hierarchy-of-publication-types"><i class="fa fa-check"></i><b>2.1</b> The new hierarchy of publication types</a></li>
-<li class="chapter" data-level="2.2" data-path="units-of-publication.html"><a href="units-of-publication.html#the-minimum-unit-of-publication"><i class="fa fa-check"></i><b>2.2</b> The minimum unit of publication</a></li>
+<li class="chapter" data-level="2.2" data-path="units-of-publication.html"><a href="units-of-publication.html#problems-with-the-current-units-of-publication-and-how-the-new-ones-address-them"><i class="fa fa-check"></i><b>2.2</b> Problems with the current units of publication and how the new ones address them</a><ul>
+<li class="chapter" data-level="2.2.1" data-path="units-of-publication.html"><a href="units-of-publication.html#the-minimum-unit-of-publication"><i class="fa fa-check"></i><b>2.2.1</b> The minimum unit of publication</a></li>
+<li class="chapter" data-level="2.2.2" data-path="units-of-publication.html"><a href="units-of-publication.html#the-human-unit-of-publication"><i class="fa fa-check"></i><b>2.2.2</b> The Human Unit of Publication</a></li>
+</ul></li>
 </ul></li>
 <li class="chapter" data-level="3" data-path="incentives.html"><a href="incentives.html"><i class="fa fa-check"></i><b>3</b> Incentives</a><ul>
 <li class="chapter" data-level="3.1" data-path="incentives.html"><a href="incentives.html#the-old-funding-models"><i class="fa fa-check"></i><b>3.1</b> The Old Funding models</a><ul>
@@ -241,7 +244,7 @@ e-reader like formats also suffer from this issue as they don’t have fixed pag
 <li>Effect size of the advantage information-non locality minimized versions have over multi-panel figure versions will be larger in people with dyslexia. (I’m dyslexic and it’s been thought of as an issue related to working memory)</li>
 </ol>
 <p>If anyone wants to do this research get in touch I might even be willing to contribute to funding it.</p>
-<p>To sum up Multi-panel figures are an anacronistic concession to typesetting color prints to a compact format for printing and they have no place in modern electronic publishing.
+<p>To sum up Multi-panel figures are an anachronistic concession to typesetting color prints to a compact format for printing and they have no place in modern electronic publishing.
 They ruin the flow of reading a paper.
 They represents an unreasonable assault on the working memory resources of a reader who is trying to understand what is likely a complex topic and create undue cognitive load for readers who need their full mental faculties about them to graple with complex scientific ideas.</p>
 <p>Additionally I think that they encourage bad graphical practices.
@@ -264,8 +267,8 @@ Look at the code I wrote to get this level of functionality, I’ve left it visi
 <div class="sourceCode" id="cb1"><pre class="sourceCode r"><code class="sourceCode r"><span id="cb1-1"><a href="medium-matters.html#cb1-1"></a><span class="kw">library</span>(canvasXpress)</span>
 <span id="cb1-2"><a href="medium-matters.html#cb1-2"></a><span class="co"># </span><span class="al">TODO</span><span class="co">: make a better example plot</span></span>
 <span id="cb1-3"><a href="medium-matters.html#cb1-3"></a>canvasXpress<span class="op">::</span><span class="kw">canvasXpress</span>(mtcars)</span></code></pre></div>
-<div id="htmlwidget-dba0595bd723bd6ae3ca" style="width:600px;height:400px;" class="canvasXpress html-widget"></div>
-<script type="application/json" data-for="htmlwidget-dba0595bd723bd6ae3ca">{"x":{"data":{"y":{"vars":["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant","Duster 360","Merc 240D","Merc 230","Merc 280","Merc 280C","Merc 450SE","Merc 450SL","Merc 450SLC","Cadillac Fleetwood","Lincoln Continental","Chrysler Imperial","Fiat 128","Honda Civic","Toyota Corolla","Toyota Corona","Dodge Challenger","AMC Javelin","Camaro Z28","Pontiac Firebird","Fiat X1-9","Porsche 914-2","Lotus Europa","Ford Pantera L","Ferrari Dino","Maserati Bora","Volvo 142E"],"smps":["mpg","cyl","disp","hp","drat","wt","qsec","vs","am","gear","carb"],"data":[[21,6,160,110,3.9,2.62,16.46,0,1,4,4],[21,6,160,110,3.9,2.875,17.02,0,1,4,4],[22.8,4,108,93,3.85,2.32,18.61,1,1,4,1],[21.4,6,258,110,3.08,3.215,19.44,1,0,3,1],[18.7,8,360,175,3.15,3.44,17.02,0,0,3,2],[18.1,6,225,105,2.76,3.46,20.22,1,0,3,1],[14.3,8,360,245,3.21,3.57,15.84,0,0,3,4],[24.4,4,146.7,62,3.69,3.19,20,1,0,4,2],[22.8,4,140.8,95,3.92,3.15,22.9,1,0,4,2],[19.2,6,167.6,123,3.92,3.44,18.3,1,0,4,4],[17.8,6,167.6,123,3.92,3.44,18.9,1,0,4,4],[16.4,8,275.8,180,3.07,4.07,17.4,0,0,3,3],[17.3,8,275.8,180,3.07,3.73,17.6,0,0,3,3],[15.2,8,275.8,180,3.07,3.78,18,0,0,3,3],[10.4,8,472,205,2.93,5.25,17.98,0,0,3,4],[10.4,8,460,215,3,5.424,17.82,0,0,3,4],[14.7,8,440,230,3.23,5.345,17.42,0,0,3,4],[32.4,4,78.7,66,4.08,2.2,19.47,1,1,4,1],[30.4,4,75.7,52,4.93,1.615,18.52,1,1,4,2],[33.9,4,71.1,65,4.22,1.835,19.9,1,1,4,1],[21.5,4,120.1,97,3.7,2.465,20.01,1,0,3,1],[15.5,8,318,150,2.76,3.52,16.87,0,0,3,2],[15.2,8,304,150,3.15,3.435,17.3,0,0,3,2],[13.3,8,350,245,3.73,3.84,15.41,0,0,3,4],[19.2,8,400,175,3.08,3.845,17.05,0,0,3,2],[27.3,4,79,66,4.08,1.935,18.9,1,1,4,1],[26,4,120.3,91,4.43,2.14,16.7,0,1,5,2],[30.4,4,95.1,113,3.77,1.513,16.9,1,1,5,2],[15.8,8,351,264,4.22,3.17,14.5,0,1,5,4],[19.7,6,145,175,3.62,2.77,15.5,0,1,5,6],[15,8,301,335,3.54,3.57,14.6,0,1,5,8],[21.4,4,121,109,4.11,2.78,18.6,1,1,4,2]]},"x":null,"z":null},"config":{"graphType":"Scatter2D","isR":true},"events":null,"afterRender":null},"evals":[],"jsHooks":[]}</script>
+<div id="htmlwidget-84392a6b9110697b2b27" style="width:600px;height:400px;" class="canvasXpress html-widget"></div>
+<script type="application/json" data-for="htmlwidget-84392a6b9110697b2b27">{"x":{"data":{"y":{"vars":["Mazda RX4","Mazda RX4 Wag","Datsun 710","Hornet 4 Drive","Hornet Sportabout","Valiant","Duster 360","Merc 240D","Merc 230","Merc 280","Merc 280C","Merc 450SE","Merc 450SL","Merc 450SLC","Cadillac Fleetwood","Lincoln Continental","Chrysler Imperial","Fiat 128","Honda Civic","Toyota Corolla","Toyota Corona","Dodge Challenger","AMC Javelin","Camaro Z28","Pontiac Firebird","Fiat X1-9","Porsche 914-2","Lotus Europa","Ford Pantera L","Ferrari Dino","Maserati Bora","Volvo 142E"],"smps":["mpg","cyl","disp","hp","drat","wt","qsec","vs","am","gear","carb"],"data":[[21,6,160,110,3.9,2.62,16.46,0,1,4,4],[21,6,160,110,3.9,2.875,17.02,0,1,4,4],[22.8,4,108,93,3.85,2.32,18.61,1,1,4,1],[21.4,6,258,110,3.08,3.215,19.44,1,0,3,1],[18.7,8,360,175,3.15,3.44,17.02,0,0,3,2],[18.1,6,225,105,2.76,3.46,20.22,1,0,3,1],[14.3,8,360,245,3.21,3.57,15.84,0,0,3,4],[24.4,4,146.7,62,3.69,3.19,20,1,0,4,2],[22.8,4,140.8,95,3.92,3.15,22.9,1,0,4,2],[19.2,6,167.6,123,3.92,3.44,18.3,1,0,4,4],[17.8,6,167.6,123,3.92,3.44,18.9,1,0,4,4],[16.4,8,275.8,180,3.07,4.07,17.4,0,0,3,3],[17.3,8,275.8,180,3.07,3.73,17.6,0,0,3,3],[15.2,8,275.8,180,3.07,3.78,18,0,0,3,3],[10.4,8,472,205,2.93,5.25,17.98,0,0,3,4],[10.4,8,460,215,3,5.424,17.82,0,0,3,4],[14.7,8,440,230,3.23,5.345,17.42,0,0,3,4],[32.4,4,78.7,66,4.08,2.2,19.47,1,1,4,1],[30.4,4,75.7,52,4.93,1.615,18.52,1,1,4,2],[33.9,4,71.1,65,4.22,1.835,19.9,1,1,4,1],[21.5,4,120.1,97,3.7,2.465,20.01,1,0,3,1],[15.5,8,318,150,2.76,3.52,16.87,0,0,3,2],[15.2,8,304,150,3.15,3.435,17.3,0,0,3,2],[13.3,8,350,245,3.73,3.84,15.41,0,0,3,4],[19.2,8,400,175,3.08,3.845,17.05,0,0,3,2],[27.3,4,79,66,4.08,1.935,18.9,1,1,4,1],[26,4,120.3,91,4.43,2.14,16.7,0,1,5,2],[30.4,4,95.1,113,3.77,1.513,16.9,1,1,5,2],[15.8,8,351,264,4.22,3.17,14.5,0,1,5,4],[19.7,6,145,175,3.62,2.77,15.5,0,1,5,6],[15,8,301,335,3.54,3.57,14.6,0,1,5,8],[21.4,4,121,109,4.11,2.78,18.6,1,1,4,2]]},"x":null,"z":null},"config":{"graphType":"Scatter2D","isR":true},"events":null,"afterRender":null},"evals":[],"jsHooks":[]}</script>
 <p>I’m serious really play with it before you move on, have you tired double clicking, have you looked in configure?</p>
 <p>This sort of capability is particularly valuable for looking at publications of exploratory analyses where the authors publishing the work</p>
 <p>Let’s Consider some other uses of interactivity.
@@ -338,7 +341,7 @@ gitbook.start({
 "link": null,
 "text": null
 },
-"download": ["literate-science.pdf", "literate-science.epub"],
+"download": ["literate-science.epub"],
 "toc": {
 "collapse": "subsection"
 }
