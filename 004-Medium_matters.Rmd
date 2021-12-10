@@ -54,7 +54,7 @@ Specific hypotheses I'd like to see tested:
 
 If anyone wants to do this research get in touch I might even be willing to contribute to funding it.
 
-To sum up Multi-panel figures are an anacronistic concession to typesetting color prints to a compact format for printing and they have no place in modern electronic publishing. 
+To sum up Multi-panel figures are an anachronistic concession to typesetting color prints to a compact format for printing and they have no place in modern electronic publishing. 
 They ruin the flow of reading a paper.
 They represents an unreasonable assault on the working memory resources of a reader who is trying to understand what is likely a complex topic and create undue cognitive load for readers who need their full mental faculties about them to graple with complex scientific ideas.
 

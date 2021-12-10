@@ -3,6 +3,7 @@ title: "Literate Science"
 author: "Richard J. Acton"
 date: "`r Sys.Date()`"
 site: bookdown::bookdown_site
+always_allow_html: true
 output: bookdown::gitbook
 documentclass: book
 bibliography: [book.bib, packages.bib, references.bib]
