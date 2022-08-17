@@ -2,7 +2,7 @@
 
 Out-competing the incumbents on community trust
 
-In order for new companies starting out in the publication space to succeed in addressing the issues that have arisen from the extractive behaviors of the current publishing racket/oligopoly they must out compete the conventional publishing houses in a number of dimensions. 
+In order for new companies starting out in the publication space to succeed in addressing the issues that have arisen from the extractive behaviours of the current publishing racket/oligopoly they must out compete the conventional publishing houses in a number of dimensions. 
 They must do so not merely in ease of use, novel features and scholarly merit, but also in the trust of the academic community that they are not going to become the very thing they sought to destroy and dash our hopes of lasting and effective reform of academic publishing. 
 The academic community must be able to have confidence that the new journals will not be captured by the industry incumbents and lead to the same old problems recurring. Look how Mendeley stagnated after the [Elsevier aquisition](https://www.elsevier.com/about/press-releases/corporate/elsevier-acquires-mendeley,-an-innovative,-cloud-based-research-management-and-social-collaboration-platform) and began introducing anti-features like [encrypting local databases](https://eighty-twenty.org/2018/06/13/mendeley-encrypted-db) reducing user data probability.
 
