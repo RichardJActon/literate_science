@@ -114,6 +114,7 @@ However a git interface tailored to the needs of document authors and not explic
 
 git and gitlab for versioning in collaborative plaintext document editing markdown as a simple to use plaintext markup lanugage Rmarkdown/kintr/pandoc with Rstudio as document editor/renderer literate programming gitlab ci-cd / docker for reproducible computational environments and automated checking automatically see if your edit to a manuscript if that change breaks a formatting rule automated QC checking and helping, readability analysis, plagarism, stats checks etc.
 
+https://www.nature.com/articles/d41586-021-03807-6
 
 ## Why not Blockchain (yet)?
 
