@@ -12,7 +12,7 @@ A 'B corp' on the other hand is given license to prioritize its purpose over max
 I propose the development of open publication platforms by 'B corps' (see above).
 
 The business model I envision for them is similar to that employed by many open source software based businesses such as [RedHat](https://www.redhat.com/en) and [SUSE](https://www.suse.com/).
-Individual journals would pay for support for their own instances, consulting, some bespoke development for their needs that will be committed to the public code base and SaaS style hosting for groups who want and instance without the technical overhead.
+Individual journals would pay for support for their own instances, consulting, some bespoke development for their needs that will be committed to the public code base and SaaS (software as a service) style hosting for groups who want and instance without the technical overhead.
 The SaaS service *must* always have feature parity with the community version.
 
 Instances would be part of a federated network with the ability to use accounts on one instance to interact with another instance akin to [matrix](https://matrix.org/), [mastadon](https://joinmastodon.org/) or [peertube](https://joinpeertube.org/) and likely employing [OCRID](https://orcid.org/) for universal academic identification.
