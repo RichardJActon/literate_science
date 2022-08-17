@@ -4,6 +4,22 @@
 
 __This is currently very much a work in progress and may change dramatically and rapidly, some sections may be drafts, outlines and bullet points to be filled in and properly edited as I go__
 
+## Summary
+
+I have two main proposals:
+
+__Literate Publishing__ - An Open Source academic authoring, publishing and review platform which provides reproducible analyses by linking data, computation and results
+
+__Review Bounties__ - a new business model for academic publishers
+
+### Literate Publishing
+
+### Review Bounties
+
+
+
+## Introduction
+
 This is an outline for a new academic publishing paradigm with reforms spanning the types of article we publish, the formats in which we author them and the business models of publishers.
 These proposals aim to address a number of the systemic issues by which academic publishing is currently beset.
 They range from the seemingly minor impracticalities associated with submitting papers through to the extractive business practices of a number of large incumbent publishers, the vicissitudes of peer-review, irreproducible analyses, the form and function of papers and a number of other issues.
